@@ -1,0 +1,350 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  font-size: 5rem;
+  font-family: "Boogaloo", system-ui;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #f3f4f6;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  background-image: url("../public/pictures/background.png");
+  background-size: contain;
+}
+
+.main {
+  max-width: 85rem;
+  min-height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* album */
+
+.album {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 15px;
+  max-width: 55rem;
+}
+
+.album-cover {
+  width: 17rem;
+  height: 17rem;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 120%;
+}
+
+.album-title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.album-artist {
+  font-family: "Boogaloo", system-ui;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  margin-top: -1rem;
+  margin-left: 0.3rem;
+}
+
+.album-avg {
+  font-family: "Boogaloo", system-ui;
+  display: block;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  width: fit-content;
+  padding: 0.4rem 0.8rem;
+  border-radius: 17px;
+}
+
+.errow {
+  align-self: center;
+  font-size: 5rem;
+  margin-right: 3.5rem;
+  margin-left: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* artists */
+
+.artists-title {
+  font-family: "Boogaloo", system-ui;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid black;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.artist-name {
+  font-family: "Boogaloo", system-ui;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* footer */
+
+.footer {
+  background-color: white;
+  border-top: 3px solid #f3f4f6;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 640px) {
+  .footer-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer-links a:hover {
+  opacity: 0.75;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 640px) {
+  .footer-socials {
+    margin-top: 0;
+  }
+}
+
+.footer-socials a {
+  color: #374151;
+  transition: opacity 0.2s;
+}
+
+.footer-socials a:hover {
+  opacity: 0.75;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@property --hue {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 180deg;
+}
+
+@keyframes rotateHue {
+  0% {
+    --hue: 180deg;
+  }
+  25% {
+    --hue: 360deg;
+  }
+  100% {
+    --hue: 180deg;
+  }
+}
+
+select {
+  appearance: none;
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+
+  @supports (appearance: base-select) {
+    &,
+    &::picker(select) {
+      appearance: base-select;
+      animation: rotateHue 10s infinite;
+    }
+  }
+}
+
+select {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  align-items: center;
+  color: black;
+  padding-block: 10px;
+  padding-inline: 20px 30px;
+  border-radius: 15px;
+  border: 4px solid #1d201d;
+  cursor: pointer;
+  background: #eaecea
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23000' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E%0A")
+    right 15px center / 20px no-repeat;
+
+  @supports (appearance: base-select) {
+    padding-inline: 20px;
+    background-image: none; /* Remove original arrow option */
+    img {
+      width: 30px;
+      line-height: 1;
+    }
+    &::picker-icon {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23000' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E%0A");
+      transition: rotate 0.2s ease-out;
+    }
+    &:open::picker-icon {
+      rotate: 180deg;
+    }
+    &::picker(select) {
+      padding: 0;
+      margin-top: 5px;
+      border: 4px solid #1d201d;
+      background: #eaecea;
+      border-radius: 10px;
+      font-weight: semi-bold;
+      opacity: 0;
+      height: 0;
+      overflow: clip;
+      transition: height 0.5s ease-out, opacity 0.5s ease-out, overlay 0.5s,
+        display 0.5s;
+      transition-behavior: allow-discrete;
+    }
+    &:open::picker(select) {
+      opacity: 1;
+      height: calc-size(auto, size);
+      overflow: auto;
+      @starting-style {
+        opacity: 0;
+        height: 0;
+      }
+    }
+    option {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px;
+      gap: 10px;
+      border-top: 1px solid #444;
+      &:where(:hover, :focus, :active) {
+        background: #c7ccc7;
+        font-weight: bold;
+      }
+      &:checked {
+        background: #50c878;
+        color: white;
+        font-weight: bold;
+      }
+      &::checkmark {
+        display: none; /* Remove original active option */
+      }
+    }
+    selectedcontent {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
