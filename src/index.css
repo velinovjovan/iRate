@@ -12,6 +12,35 @@
   -webkit-text-stroke-color: black;
 }
 
+@media (max-width: 815px) {
+  html {
+    font-size: 8px;
+  }
+
+  .header {
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .selects {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+  }
+}
+
+@media (min-width: 815px) {
+  .selects {
+    display: flex;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 6px;
+  }
+}
+
 body {
   margin: 0 0;
   padding: 0 0;
@@ -22,7 +51,7 @@ body {
 }
 
 .app {
-  background-image: url("../public/pictures/background.png");
+  background-image: url("../public/pictures/backgroundRate.webp");
   background-size: contain;
 }
 
@@ -31,10 +60,19 @@ body {
   min-height: 100vh;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 1160px) {
+  .lists {
+    flex-direction: column-reverse;
+  }
 }
 
 .lists {
@@ -48,10 +86,13 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 2rem;
   padding: 1.5rem 2rem;
   border-radius: 15px;
   max-width: 55rem;
+}
+
+.album-whole {
+  margin-bottom: 2rem;
 }
 
 .album-cover {
@@ -105,6 +146,10 @@ body {
 }
 
 /* artists */
+
+.artists {
+  margin-bottom: 6rem;
+}
 
 .artists-title {
   font-family: "Boogaloo", system-ui;
@@ -175,7 +220,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   list-style: none;
   padding: 0;
   margin: 0;
