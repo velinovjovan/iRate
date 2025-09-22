@@ -12,6 +12,38 @@
   -webkit-text-stroke-color: black;
 }
 
+.song-list {
+  padding: 1.5rem 2rem;
+  padding-top: 3rem;
+  border-radius: 15px;
+  margin-top: -2rem;
+  max-width: 55rem;
+}
+
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.song-title {
+  font-family: "Boogaloo", system-ui;
+}
+
+.trophy {
+  margin-left: 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.song-rating {
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+}
+
 @media (max-width: 815px) {
   html {
     font-size: 8px;
