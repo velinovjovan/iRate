@@ -79,16 +79,36 @@ export default function Album({ phase, album, index }) {
               className="album-avg"
               style={{
                 backgroundColor:
-                  album.avg >= 9.5
+                  album.avg >= 10.1
+                    ? "#327086"
+                    : album.avg >= 9.9
+                    ? "#3D88A4"
+                    : album.avg >= 9.5
                     ? "#507E4E"
-                    : album.avg >= 8.5
+                    : album.avg >= 9.0
                     ? "#69A267"
+                    : album.avg >= 8.5
+                    ? "#8FB98D"
+                    : album.avg >= 8.0
+                    ? "#B5D0B3"
                     : album.avg >= 7.5
-                    ? "#98D7AE"
+                    ? "#CEE0CC"
+                    : album.avg >= 7.0
+                    ? "#DBE8D9"
                     : album.avg >= 6.5
-                    ? "#E6B325"
+                    ? "#F2D891"
+                    : album.avg >= 6.0
+                    ? "#ECC55B"
                     : album.avg >= 5.5
-                    ? "#D9534F"
+                    ? "#E7B836"
+                    : album.avg >= 5.0
+                    ? "#F4783E"
+                    : album.avg >= 4.5
+                    ? "#F4783E"
+                    : album.avg >= 4.0
+                    ? "#CD3F3C"
+                    : album.avg >= 3.5
+                    ? "#CD3F3C"
                     : "#aa2e2c",
               }}
             >
@@ -159,14 +179,28 @@ export default function Album({ phase, album, index }) {
                       ? "#507E4E"
                       : song.rating >= 9.0
                       ? "#69A267"
-                      : song.rating >= 8.0
+                      : song.rating >= 8.5
                       ? "#8FB98D"
-                      : song.rating >= 7.0
+                      : song.rating >= 8.0
                       ? "#B5D0B3"
+                      : song.rating >= 7.5
+                      ? "#CEE0CC"
+                      : song.rating >= 7.0
+                      ? "#DBE8D9"
                       : song.rating >= 6.5
-                      ? "#E6B325"
+                      ? "#F2D891"
+                      : song.rating >= 6.0
+                      ? "#ECC55B"
                       : song.rating >= 5.5
-                      ? "#D9534F"
+                      ? "#E7B836"
+                      : song.rating >= 5.0
+                      ? "#F4783E"
+                      : song.rating >= 4.5
+                      ? "#F4783E"
+                      : song.rating >= 4.0
+                      ? "#CD3F3C"
+                      : song.rating >= 3.5
+                      ? "#CD3F3C"
                       : "#aa2e2c",
                   color: song.rating > 10 ? "white" : "black",
                 }}
