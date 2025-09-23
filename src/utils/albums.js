@@ -175,6 +175,30 @@ export const albums = {
         { title: "Note To Self", rating: 7.5, placement: "none" },
       ],
     },
+    {
+      title: "Dookie",
+      artist: "Green Day",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F7761dad5538269755257550d04dc5bac.1000x1000x1.png",
+      avg: 9.01,
+      songs: [
+        { title: "Burnout", rating: 10.0, placement: "3rd" },
+        { title: "Having a Blast", rating: 9.8, placement: "none" },
+        { title: "Chump", rating: 8.7, placement: "none" },
+        { title: "Longview", rating: 9.5, placement: "none" },
+        { title: "Welcome to Paradise", rating: 9.6, placement: "none" },
+        { title: "Pulling Teeth", rating: 9.8, placement: "none" },
+        { title: "Basket Case", rating: 10.0, placement: "2nd" },
+        { title: "She", rating: 9.0, placement: "none" },
+        { title: "Sassafras Roots", rating: 8.5, placement: "none" },
+        { title: "When I Come Around", rating: 10.0, placement: "1st" },
+        { title: "Coming Clean", rating: 8.0, placement: "none" },
+        { title: "Emenius Sleepus", rating: 9.1, placement: "none" },
+        { title: "In the End", rating: 9.3, placement: "none" },
+        { title: "F.O.D.", rating: 8.0, placement: "none" },
+        { title: "All by Myself", rating: 7.0, placement: "none" },
+      ],
+    },
   ],
   meli: [
     {
