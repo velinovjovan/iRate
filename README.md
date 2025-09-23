@@ -28,7 +28,7 @@
 
 ```bash
 git clone https://github.com/velinovjovan/iRate.git
-cd irate
+cd iRate
 ```
 
 ### 2. Install dependencies
