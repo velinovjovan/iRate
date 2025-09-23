@@ -360,7 +360,7 @@ select {
 
   @supports (appearance: base-select) {
     padding-inline: 20px;
-    background-image: none; /* Remove original arrow option */
+    background-image: none;
     img {
       width: 30px;
       line-height: 1;
@@ -415,7 +415,7 @@ select {
         font-weight: bold;
       }
       &::checkmark {
-        display: none; /* Remove original active option */
+        display: none;
       }
     }
     selectedcontent {
