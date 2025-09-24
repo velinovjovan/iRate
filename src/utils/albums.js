@@ -5,7 +5,6 @@ export const albums = {
       artist: "Kendrick Lamar",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Ff3f77222e1b615e0a10354ea6282ff22.1000x1000x1.png",
-      avg: 9.0,
       songs: [
         { title: "BLOOD.", rating: 9.0, placement: "none" },
         { title: "DNA.", rating: 10.0, placement: "none" },
@@ -18,17 +17,22 @@ export const albums = {
         { title: "LUST.", rating: 9.2, placement: "none" },
         { title: "LOVE.", rating: 9.0, placement: "none" },
         { title: "XXX.", rating: 10.0, placement: "none" },
-        { title: "FEAR.", rating: 10.0, placement: "1st" },
+        { title: "FEAR.", rating: 10.1, placement: "1st" },
         { title: "GOD.", rating: 7.0, placement: "none" },
         { title: "DUCKWORTH.", rating: 10.0, placement: "3rd" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "untitled unmastered.",
       artist: "Kendrick Lamar",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F539168707d36a67a51a4c1ed8a9d32c3.1000x1000x1.jpg",
-      avg: 8.85,
       songs: [
         { title: "untitled 01 | 08.19.2014.", rating: 7.5, placement: "none" },
         { title: "untitled 02 | 06.23.2014.", rating: 9.0, placement: "none" },
@@ -39,13 +43,18 @@ export const albums = {
         { title: "untitled 07 | 2014 - 2016", rating: 8.0, placement: "none" },
         { title: "untitled 08 | 09.06.2014.", rating: 9.7, placement: "2nd" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "To Pimp A Butterfly",
       artist: "Kendrick Lamar",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fde919556998a79d8ebfe51b9963121d1.1000x1000x1.png",
-      avg: 9.625,
       songs: [
         { title: "Wesley's Theory", rating: 10.0, placement: "none" },
         { title: "For Free? - Interlude", rating: 9.5, placement: "none" },
@@ -68,13 +77,18 @@ export const albums = {
         { title: "i", rating: 10.0, placement: "none" },
         { title: "Mortal Man", rating: 10.0, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "good kid, m.A.A.d city",
       artist: "Kendrick Lamar",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fb4d6d87f080c362200ce55ed35ec65bb.1000x1000x1.png",
-      avg: 9.592,
       songs: [
         {
           title: "Sharane a.k.a Master Splinter's Daughter",
@@ -97,15 +111,20 @@ export const albums = {
         { title: "Real", rating: 10.0, placement: "2nd" },
         { title: "Compton", rating: 8.5, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "channel ORANGE",
       artist: "Frank Ocean",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F6523ef2dbe975dd04570ee626edf53ca.1000x1000x1.png",
-      avg: 9.04,
       songs: [
-        { title: "Start", rating: 7.5, placement: "none" },
+        { title: "Start", rating: 8.0, placement: "none" },
         { title: "Thinkin Bout You", rating: 10.0, placement: "none" },
         { title: "Fertilizer", rating: 8.0, placement: "none" },
         { title: "Sierra Leone", rating: 9.3, placement: "none" },
@@ -121,17 +140,22 @@ export const albums = {
         { title: "Bad Religion", rating: 10.0, placement: "2nd" },
         { title: "Pink Matter", rating: 10.0, placement: "1st" },
         { title: "Forrest Gump", rating: 9.1, placement: "none" },
-        { title: "End", rating: 8.0, placement: "none" },
+        { title: "End", rating: 8.5, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Born Sinner",
       artist: "J. Cole",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fcae5014446bde04b411c6fa684963ba8.592x592x1.webp",
-      avg: 8.37,
       songs: [
-        { title: "Villuminati", rating: 8.3, placement: "none" },
+        { title: "Villuminati", rating: 8.5, placement: "none" },
         { title: "Kerney Sermon - Skit", rating: 7.5, placement: "none" },
         { title: "Land Of The Snakes", rating: 8.2, placement: "none" },
         { title: "Power Trip", rating: 9.2, placement: "none" },
@@ -140,30 +164,35 @@ export const albums = {
         { title: "Runaway", rating: 8.4, placement: "none" },
         { title: "She Knows", rating: 10.0, placement: "1st" },
         { title: "Rich Niggaz", rating: 8.3, placement: "none" },
-        { title: "Where's Jerimaine? - Skit", rating: 8.0, placement: "none" },
-        { title: "Forbidden Fruit", rating: 9.3, placement: "none" },
+        { title: "Where's Jerimaine? - Skit", rating: 8.5, placement: "none" },
+        { title: "Forbidden Fruit", rating: 9.7, placement: "none" },
         { title: "Chaining Day", rating: 7.7, placement: "none" },
         {
           title: "Ain't That Some Shit - interlude",
           rating: 7.0,
           placement: "none",
         },
-        { title: "Crooked Smile", rating: 9.5, placement: "3rd" },
+        { title: "Crooked Smile", rating: 10.0, placement: "3rd" },
         { title: "Let Nas Down", rating: 10.0, placement: "2nd" },
         { title: "Born Sinner", rating: 8.0, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "2014 Forrest Hills Drive",
       artist: "J. Cole",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F3b02f41397586e2b3c8bd3fbbc586928.1000x1000x1.png",
-      avg: 8.86,
       songs: [
         { title: "Intro", rating: 7.5, placement: "none" },
         { title: "January 28th", rating: 10.0, placement: "none" },
         { title: "Wet Dreamz", rating: 10.0, placement: "3rd" },
-        { title: "03' Adolesence", rating: 8.5, placement: "none" },
+        { title: "03' Adolesence", rating: 9.0, placement: "none" },
         { title: "A Tale Of 2 Citiez", rating: 8.0, placement: "none" },
         { title: "Fire Squad", rating: 8.7, placement: "none" },
         { title: "St. Tropez", rating: 8.8, placement: "none" },
@@ -171,33 +200,44 @@ export const albums = {
         { title: "No Role Modelz", rating: 10.0, placement: "2nd" },
         { title: "Hello", rating: 8.2, placement: "none" },
         { title: "Apperently", rating: 9.0, placement: "none" },
-        { title: "Love Yourz", rating: 10.0, placement: "1st" },
+        { title: "Love Yourz", rating: 10.1, placement: "1st" },
         { title: "Note To Self", rating: 7.5, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Dookie",
       artist: "Green Day",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F7761dad5538269755257550d04dc5bac.1000x1000x1.png",
-      avg: 9.01,
       songs: [
         { title: "Burnout", rating: 10.0, placement: "3rd" },
-        { title: "Having a Blast", rating: 9.8, placement: "none" },
+        { title: "Having a Blast", rating: 10.0, placement: "none" },
         { title: "Chump", rating: 8.7, placement: "none" },
         { title: "Longview", rating: 9.5, placement: "none" },
         { title: "Welcome to Paradise", rating: 9.6, placement: "none" },
-        { title: "Pulling Teeth", rating: 9.8, placement: "none" },
+        { title: "Pulling Teeth", rating: 10.0, placement: "none" },
         { title: "Basket Case", rating: 10.0, placement: "2nd" },
         { title: "She", rating: 9.0, placement: "none" },
         { title: "Sassafras Roots", rating: 8.5, placement: "none" },
         { title: "When I Come Around", rating: 10.0, placement: "1st" },
         { title: "Coming Clean", rating: 8.0, placement: "none" },
         { title: "Emenius Sleepus", rating: 9.1, placement: "none" },
-        { title: "In the End", rating: 9.3, placement: "none" },
+        { title: "In the End", rating: 9.5, placement: "none" },
         { title: "F.O.D.", rating: 8.0, placement: "none" },
         { title: "All by Myself", rating: 7.0, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
   ],
   meli: [
@@ -206,7 +246,6 @@ export const albums = {
       artist: "Jeff Buckley",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8dd609cb1f601ff21ec21c888cc25773.1000x1000x1.png",
-      avg: 8.94,
       songs: [
         { title: "Mojo Pin", rating: 7.8, placement: "none" },
         { title: "Grace", rating: 9.0, placement: "none" },
@@ -224,13 +263,18 @@ export const albums = {
         { title: "Dream Brother", rating: 8.7, placement: "none" },
         { title: "Forget Her", rating: 10.0, placement: "2nd" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Frank",
       artist: "Amy Winehouse",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fe2c709ffce2aa9d18dc1f08698f1275f.1000x1000x1.png",
-      avg: 9.41,
       songs: [
         { title: "Intro / Stronger Than Me", rating: 10.0, placement: "3rd" },
         {
@@ -261,13 +305,18 @@ export const albums = {
           placement: "none",
         },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Madvillainy",
       artist: "Madvillain",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F34ca415cf9ccfd68d859fb84e3645e8a.768x768x1.jpg",
-      avg: 8.83,
       songs: [
         { title: "The Illest Villains", rating: 6.0, placement: "none" },
         { title: "Accordion", rating: 7.5, placement: "none" },
@@ -299,13 +348,18 @@ export const albums = {
         { title: "Great Day", rating: 7.9, placement: "none" },
         { title: "Rhinestone Cowboy", rating: 9.3, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Operation: Doomsday",
       artist: "MF DOOM",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F244fc416deda77738fea30048e2e6201.1000x1000x1.png",
-      avg: 8.11,
       songs: [
         {
           title: "The Time We Faced Doom (Skit)",
@@ -331,13 +385,18 @@ export const albums = {
         { title: "?", rating: 10.0, placement: "1st" },
         { title: "Hero v.s. Villain", rating: 6.9, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Doris",
       artist: "Earl Sweatshirt",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fc5a84e1fffc69e59a2cae6e1e07f2f13.720x720x1.png",
-      avg: 8.97,
       songs: [
         { title: "Pre", rating: 8.7, placement: "none" },
         { title: "Burgundy", rating: 9.2, placement: "none" },
@@ -355,13 +414,18 @@ export const albums = {
         { title: "Hoarse", rating: 9.5, placement: "none" },
         { title: "Knight", rating: 9.2, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "channel ORANGE",
       artist: "Frank Ocean",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F6523ef2dbe975dd04570ee626edf53ca.1000x1000x1.png",
-      avg: 9.24,
       songs: [
         { title: "Start", rating: 7.9, placement: "none" },
         { title: "Thinking Bout You", rating: 9.8, placement: "none" },
@@ -381,13 +445,18 @@ export const albums = {
         { title: "Forrest Gump", rating: 9.2, placement: "none" },
         { title: "End", rating: 9.4, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
     {
       title: "Blonde",
       artist: "Frank Ocean",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F750737a023d383b93057b73d546bfe4e.1000x1000x1.png",
-      avg: 9.11,
       songs: [
         { title: "Nikes", rating: 9.5, placement: "none" },
         { title: "Ivy", rating: 9.8, placement: "none" },
@@ -407,6 +476,12 @@ export const albums = {
         { title: "Godspeed", rating: 9.8, placement: "none" },
         { title: "Futura Free", rating: 9.0, placement: "none" },
       ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
     },
   ],
 };

@@ -197,11 +197,16 @@ body {
 
 .artist-name {
   font-family: "Boogaloo", system-ui;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin: 0.5rem 0;
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+}
+
+.artist-rating {
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
 }
 
 /* footer */
