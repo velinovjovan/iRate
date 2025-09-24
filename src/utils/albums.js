@@ -314,7 +314,7 @@ export const albums = {
     },
     {
       title: "Madvillainy",
-      artist: "Madvillain",
+      artist: "MF DOOM",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F34ca415cf9ccfd68d859fb84e3645e8a.768x768x1.jpg",
       songs: [
