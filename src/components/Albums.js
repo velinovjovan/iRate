@@ -51,7 +51,7 @@ export default function Artists({ phase }) {
         {sortedAlbums
           .slice(0, Number(show === "all" ? sortedAlbums.length : show))
           .map((album, index) => (
-            <Album album={album} index={index} phase={phase} />
+            <Album album={album} phase={phase} key={album.title} />
           ))}
       </div>
     </div>

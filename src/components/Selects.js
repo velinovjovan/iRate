@@ -20,17 +20,11 @@ export default function Selects({ sort, show, setSort, setShow, phase }) {
   return (
     <div className="selects" ref={selectsRef}>
       <select value={sort} onChange={(e) => setSort(e.target.value)}>
-        <button>
-          <selectedcontent></selectedcontent>
-        </button>
         <option value="rating">BY RATING</option>
         <option value="chronological">CHRONOLOGICAL</option>
         <option value="artist">BY ARTIST</option>
       </select>
       <select value={show} onChange={(e) => setShow(e.target.value)}>
-        <button>
-          <selectedcontent></selectedcontent>
-        </button>
         <option value="5">SHOW 5</option>
         <option value="10">SHOW 10</option>
         <option value="all">SHOW ALL</option>
