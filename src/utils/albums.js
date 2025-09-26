@@ -6,20 +6,20 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Ff3f77222e1b615e0a10354ea6282ff22.1000x1000x1.png",
       songs: [
-        { title: "BLOOD.", rating: 9.0, placement: "none" },
+        { title: "BLOOD.", rating: 9.5, placement: "none" },
         { title: "DNA.", rating: 10.0, placement: "none" },
-        { title: "YAH.", rating: 6.5, placement: "none" },
+        { title: "YAH.", rating: 7.5, placement: "none" },
         { title: "ELEMENT.", rating: 8.0, placement: "none" },
-        { title: "FEEL.", rating: 9.0, placement: "none" },
-        { title: "LOYALTY.", rating: 8.8, placement: "none" },
-        { title: "PRIDE", rating: 10.0, placement: "2nd" },
-        { title: "HUMBLE.", rating: 9.5, placement: "none" },
-        { title: "LUST.", rating: 9.2, placement: "none" },
-        { title: "LOVE.", rating: 9.0, placement: "none" },
+        { title: "FEEL.", rating: 9.3, placement: "none" },
+        { title: "LOYALTY.", rating: 9.0, placement: "none" },
+        { title: "PRIDE", rating: 10.1, placement: "2nd" },
+        { title: "HUMBLE.", rating: 9.8, placement: "none" },
+        { title: "LUST.", rating: 9.5, placement: "none" },
+        { title: "LOVE.", rating: 9.3, placement: "none" },
         { title: "XXX.", rating: 10.0, placement: "none" },
         { title: "FEAR.", rating: 10.1, placement: "1st" },
         { title: "GOD.", rating: 7.0, placement: "none" },
-        { title: "DUCKWORTH.", rating: 10.0, placement: "3rd" },
+        { title: "DUCKWORTH.", rating: 10.1, placement: "3rd" },
       ],
       get avg() {
         return (
@@ -34,14 +34,14 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F539168707d36a67a51a4c1ed8a9d32c3.1000x1000x1.jpg",
       songs: [
-        { title: "untitled 01 | 08.19.2014.", rating: 7.5, placement: "none" },
+        { title: "untitled 01 | 08.19.2014.", rating: 7.0, placement: "none" },
         { title: "untitled 02 | 06.23.2014.", rating: 9.0, placement: "none" },
-        { title: "untitled 03 | 05.28.2013.", rating: 9.6, placement: "3rd" },
-        { title: "untitled 04 | 08.14.2014.", rating: 8.5, placement: "none" },
+        { title: "untitled 03 | 05.28.2013.", rating: 9.5, placement: "3rd" },
+        { title: "untitled 04 | 08.14.2014.", rating: 8.0, placement: "none" },
         { title: "untitled 05 | 09.21.2014.", rating: 10.0, placement: "1st" },
-        { title: "untitled 06 | 06.30.2014.", rating: 8.5, placement: "none" },
+        { title: "untitled 06 | 06.30.2014.", rating: 9.0, placement: "none" },
         { title: "untitled 07 | 2014 - 2016", rating: 8.0, placement: "none" },
-        { title: "untitled 08 | 09.06.2014.", rating: 9.7, placement: "2nd" },
+        { title: "untitled 08 | 09.06.2014.", rating: 9.8, placement: "2nd" },
       ],
       get avg() {
         return (
@@ -59,16 +59,16 @@ export const albums = {
         { title: "Wesley's Theory", rating: 10.0, placement: "none" },
         { title: "For Free? - Interlude", rating: 9.5, placement: "none" },
         { title: "King Kunta", rating: 10.0, placement: "none" },
-        { title: "Institutionalized", rating: 10.0, placement: "1st" },
+        { title: "Institutionalized", rating: 10.1, placement: "1st" },
         { title: "These Walls", rating: 10.0, placement: "3rd" },
         { title: "u", rating: 10.0, placement: "2nd" },
         { title: "Alright", rating: 10.0, placement: "none" },
-        { title: "For Sale? - Interlude", rating: 9.7, placement: "none" },
+        { title: "For Sale? - Interlude", rating: 9.5, placement: "none" },
         { title: "Momma", rating: 8.5, placement: "none" },
         { title: "Hood Politics", rating: 7.0, placement: "none" },
         { title: "How Much A Dollar Cost", rating: 10.0, placement: "none" },
-        { title: "Complexion (A Zulu Love)", rating: 9.5, placement: "none" },
-        { title: "The Blacker The Berry", rating: 9.8, placement: "none" },
+        { title: "Complexion (A Zulu Love)", rating: 9.7, placement: "none" },
+        { title: "The Blacker The Berry", rating: 10.0, placement: "none" },
         {
           title: "You Ain't Gotta Lie (Momma Said)",
           rating: 10.0,
@@ -96,12 +96,12 @@ export const albums = {
           placement: "none",
         },
         { title: "Bitch, Don't Kill My Vibe", rating: 10.0, placement: "none" },
-        { title: "Backseat Freestyle", rating: 8.5, placement: "none" },
+        { title: "Backseat Freestyle", rating: 9.0, placement: "none" },
         { title: "The Art of Peer Pressure", rating: 10.0, placement: "3rd" },
         { title: "Money Trees", rating: 10.0, placement: "none" },
-        { title: "Poetic Justice", rating: 9.5, placement: "none" },
-        { title: "good kid", rating: 9.7, placement: "none" },
-        { title: "m.A.A.d city", rating: 9.3, placement: "none" },
+        { title: "Poetic Justice", rating: 9.7, placement: "none" },
+        { title: "good kid", rating: 10.0, placement: "none" },
+        { title: "m.A.A.d city", rating: 9.4, placement: "none" },
         { title: "Swimming Pools (Drank)", rating: 10.0, placement: "none" },
         {
           title: "Sing About Me, I'm Dying Of Thirst",
@@ -231,6 +231,32 @@ export const albums = {
         { title: "In the End", rating: 9.7, placement: "none" },
         { title: "F.O.D.", rating: 8.5, placement: "none" },
         { title: "All by Myself", rating: 7.0, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "GNX",
+      artist: "GNX",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Faa7b86debf8b362bad3018cb881cfdc1.1000x1000x1.png",
+      songs: [
+        { title: "wacced out murals", rating: 7.0, placement: "none" },
+        { title: "squabble up", rating: 9.7, placement: "none" },
+        { title: "luther", rating: 10.0, placement: "3rd" },
+        { title: "man at the garden", rating: 8.5, placement: "none" },
+        { title: "hey now", rating: 9.0, placement: "none" },
+        { title: "reincarnated", rating: 10.0, placement: "2nd" },
+        { title: "tv off", rating: 9.3, placement: "none" },
+        { title: "dodger blue", rating: 8.0, placement: "none" },
+        { title: "peekaboo", rating: 9.5, placement: "none" },
+        { title: "heart pt.6", rating: 10.0, placement: "1st" },
+        { title: "gnx", rating: 7.0, placement: "none" },
+        { title: "gloria", rating: 7.5, placement: "none" },
       ],
       get avg() {
         return (
