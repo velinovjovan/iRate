@@ -108,7 +108,7 @@ export default function Album({ phase, album }) {
           ref={errowRef}
           onClick={handleOnClick}
           style={{
-            color: phase ? colors.primaryDark[0] : colors.primaryDark[1],
+            color: colors.primaryDark[phase ? 0 : 1],
           }}
         >
           &#9661;

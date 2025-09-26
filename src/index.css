@@ -273,13 +273,13 @@ body {
   margin: 0;
 }
 
-.footer-links a {
+.footer-links p {
   color: #6b7280;
   text-decoration: none;
   transition: opacity 0.2s;
 }
 
-.footer-links a:hover {
+.footer-links p:hover {
   opacity: 0.75;
 }
 

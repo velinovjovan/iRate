@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <ul className="footer-links">
             <li>
-              <a>Click on my name to find out more!</a>
+              <p>Click on my name to find out more!</p>
             </li>
           </ul>
 
