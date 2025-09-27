@@ -100,7 +100,7 @@ export const albums = {
         { title: "The Art of Peer Pressure", rating: 10.0, placement: "3rd" },
         { title: "Money Trees", rating: 10.0, placement: "none" },
         { title: "Poetic Justice", rating: 9.7, placement: "none" },
-        { title: "good kid", rating: 10.0, placement: "none" },
+        { title: "good kid", rating: 9.5, placement: "none" },
         { title: "m.A.A.d city", rating: 9.4, placement: "none" },
         { title: "Swimming Pools (Drank)", rating: 10.0, placement: "none" },
         {
