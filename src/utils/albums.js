@@ -8,18 +8,18 @@ export const albums = {
       songs: [
         { title: "BLOOD.", rating: 9.5, placement: "none" },
         { title: "DNA.", rating: 10.0, placement: "none" },
-        { title: "YAH.", rating: 7.5, placement: "none" },
+        { title: "YAH.", rating: 6.5, placement: "none" },
         { title: "ELEMENT.", rating: 8.0, placement: "none" },
-        { title: "FEEL.", rating: 9.3, placement: "none" },
-        { title: "LOYALTY.", rating: 9.0, placement: "none" },
-        { title: "PRIDE", rating: 10.1, placement: "2nd" },
-        { title: "HUMBLE.", rating: 9.8, placement: "none" },
-        { title: "LUST.", rating: 9.5, placement: "none" },
-        { title: "LOVE.", rating: 9.3, placement: "none" },
+        { title: "FEEL.", rating: 9.1, placement: "none" },
+        { title: "LOYALTY.", rating: 9.5, placement: "none" },
+        { title: "PRIDE", rating: 10.0, placement: "2nd" },
+        { title: "HUMBLE.", rating: 9.9, placement: "none" },
+        { title: "LUST.", rating: 9.0, placement: "none" },
+        { title: "LOVE.", rating: 9.5, placement: "none" },
         { title: "XXX.", rating: 10.0, placement: "none" },
         { title: "FEAR.", rating: 10.1, placement: "1st" },
         { title: "GOD.", rating: 7.0, placement: "none" },
-        { title: "DUCKWORTH.", rating: 10.1, placement: "3rd" },
+        { title: "DUCKWORTH.", rating: 10.0, placement: "3rd" },
       ],
       get avg() {
         return (
@@ -34,13 +34,13 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F539168707d36a67a51a4c1ed8a9d32c3.1000x1000x1.jpg",
       songs: [
-        { title: "untitled 01 | 08.19.2014.", rating: 7.0, placement: "none" },
-        { title: "untitled 02 | 06.23.2014.", rating: 9.0, placement: "none" },
+        { title: "untitled 01 | 08.19.2014.", rating: 6.8, placement: "none" },
+        { title: "untitled 02 | 06.23.2014.", rating: 8.8, placement: "none" },
         { title: "untitled 03 | 05.28.2013.", rating: 9.5, placement: "3rd" },
         { title: "untitled 04 | 08.14.2014.", rating: 8.0, placement: "none" },
         { title: "untitled 05 | 09.21.2014.", rating: 10.0, placement: "1st" },
         { title: "untitled 06 | 06.30.2014.", rating: 9.0, placement: "none" },
-        { title: "untitled 07 | 2014 - 2016", rating: 8.0, placement: "none" },
+        { title: "untitled 07 | 2014 - 2016", rating: 7.0, placement: "none" },
         { title: "untitled 08 | 09.06.2014.", rating: 9.8, placement: "2nd" },
       ],
       get avg() {
@@ -109,7 +109,7 @@ export const albums = {
           placement: "1st",
         },
         { title: "Real", rating: 10.0, placement: "2nd" },
-        { title: "Compton", rating: 8.5, placement: "none" },
+        { title: "Compton", rating: 8.0, placement: "none" },
       ],
       get avg() {
         return (
@@ -124,23 +124,23 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F6523ef2dbe975dd04570ee626edf53ca.1000x1000x1.png",
       songs: [
-        { title: "Start", rating: 8.0, placement: "none" },
+        { title: "Start", rating: 9.0, placement: "none" },
         { title: "Thinkin Bout You", rating: 10.0, placement: "none" },
-        { title: "Fertilizer", rating: 8.0, placement: "none" },
-        { title: "Sierra Leone", rating: 9.5, placement: "none" },
-        { title: "Sweet Life", rating: 10.0, placement: "none" },
-        { title: "Not Just Money", rating: 7.0, placement: "none" },
+        { title: "Fertilizer", rating: 8.5, placement: "none" },
+        { title: "Sierra Leone", rating: 9.6, placement: "none" },
+        { title: "Sweet Life", rating: 10.0, placement: "3rd" },
+        { title: "Not Just Money", rating: 8.0, placement: "none" },
         { title: "Super Rich Kids", rating: 9.0, placement: "none" },
-        { title: "Pilot Jones", rating: 8.7, placement: "none" },
-        { title: "Crack Rock", rating: 9.6, placement: "none" },
-        { title: "Pyramids", rating: 10.0, placement: "3rd" },
-        { title: "Lost", rating: 9.8, placement: "none" },
-        { title: "White", rating: 9.5, placement: "none" },
-        { title: "Monks", rating: 10.0, placement: "none" },
+        { title: "Pilot Jones", rating: 8.0, placement: "none" },
+        { title: "Crack Rock", rating: 10.0, placement: "none" },
+        { title: "Pyramids", rating: 10.0, placement: "none" },
+        { title: "Lost", rating: 9.5, placement: "none" },
+        { title: "White", rating: 9.0, placement: "none" },
+        { title: "Monks", rating: 9.7, placement: "none" },
         { title: "Bad Religion", rating: 10.0, placement: "2nd" },
-        { title: "Pink Matter", rating: 10.0, placement: "1st" },
-        { title: "Forrest Gump", rating: 9.1, placement: "none" },
-        { title: "End", rating: 8.5, placement: "none" },
+        { title: "Pink Matter", rating: 10.1, placement: "1st" },
+        { title: "Forrest Gump", rating: 9.0, placement: "none" },
+        { title: "End", rating: 9.5, placement: "none" },
       ],
       get avg() {
         return (
@@ -155,26 +155,26 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fcae5014446bde04b411c6fa684963ba8.592x592x1.webp",
       songs: [
-        { title: "Villuminati", rating: 8.5, placement: "none" },
-        { title: "Kerney Sermon - Skit", rating: 7.5, placement: "none" },
-        { title: "Land Of The Snakes", rating: 8.2, placement: "none" },
-        { title: "Power Trip", rating: 9.2, placement: "none" },
+        { title: "Villuminati", rating: 8.0, placement: "none" },
+        { title: "Kerney Sermon - Skit", rating: 8.5, placement: "none" },
+        { title: "Land Of The Snakes", rating: 8.0, placement: "none" },
+        { title: "Power Trip", rating: 9.1, placement: "none" },
         { title: "No Money - Interlude", rating: 7.0, placement: "none" },
-        { title: "Trouble", rating: 7.5, placement: "none" },
-        { title: "Runaway", rating: 8.4, placement: "none" },
-        { title: "She Knows", rating: 10.0, placement: "1st" },
-        { title: "Rich Niggaz", rating: 8.3, placement: "none" },
-        { title: "Where's Jerimaine? - Skit", rating: 8.5, placement: "none" },
-        { title: "Forbidden Fruit", rating: 9.7, placement: "none" },
-        { title: "Chaining Day", rating: 7.7, placement: "none" },
+        { title: "Trouble", rating: 6.5, placement: "none" },
+        { title: "Runaway", rating: 7.5, placement: "none" },
+        { title: "She Knows", rating: 10.1, placement: "1st" },
+        { title: "Rich Niggaz", rating: 8.0, placement: "none" },
+        { title: "Where's Jerimaine? - Skit", rating: 9.0, placement: "none" },
+        { title: "Forbidden Fruit", rating: 10.0, placement: "3rd" },
+        { title: "Chaining Day", rating: 7.0, placement: "none" },
         {
           title: "Ain't That Some Shit - interlude",
-          rating: 7.0,
+          rating: 6.0,
           placement: "none",
         },
-        { title: "Crooked Smile", rating: 10.0, placement: "3rd" },
+        { title: "Crooked Smile", rating: 10.0, placement: "none" },
         { title: "Let Nas Down", rating: 10.0, placement: "2nd" },
-        { title: "Born Sinner", rating: 8.0, placement: "none" },
+        { title: "Born Sinner", rating: 7.5, placement: "none" },
       ],
       get avg() {
         return (
@@ -189,19 +189,19 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F3b02f41397586e2b3c8bd3fbbc586928.1000x1000x1.png",
       songs: [
-        { title: "Intro", rating: 7.5, placement: "none" },
+        { title: "Intro", rating: 8.0, placement: "none" },
         { title: "January 28th", rating: 10.0, placement: "none" },
         { title: "Wet Dreamz", rating: 10.0, placement: "3rd" },
-        { title: "03' Adolesence", rating: 9.0, placement: "none" },
-        { title: "A Tale Of 2 Citiez", rating: 8.0, placement: "none" },
-        { title: "Fire Squad", rating: 8.7, placement: "none" },
-        { title: "St. Tropez", rating: 8.8, placement: "none" },
+        { title: "03' Adolesence", rating: 8.5, placement: "none" },
+        { title: "A Tale Of 2 Citiez", rating: 7.0, placement: "none" },
+        { title: "Fire Squad", rating: 8.3, placement: "none" },
+        { title: "St. Tropez", rating: 8.5, placement: "none" },
         { title: "G.O.M.D", rating: 9.0, placement: "none" },
         { title: "No Role Modelz", rating: 10.0, placement: "2nd" },
-        { title: "Hello", rating: 8.2, placement: "none" },
-        { title: "Apperently", rating: 9.0, placement: "none" },
+        { title: "Hello", rating: 8.0, placement: "none" },
+        { title: "Apperently", rating: 9.1, placement: "none" },
         { title: "Love Yourz", rating: 10.1, placement: "1st" },
-        { title: "Note To Self", rating: 7.5, placement: "none" },
+        { title: "Note To Self", rating: 7.0, placement: "none" },
       ],
       get avg() {
         return (
@@ -217,20 +217,20 @@ export const albums = {
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F7761dad5538269755257550d04dc5bac.1000x1000x1.png",
       songs: [
         { title: "Burnout", rating: 10.0, placement: "3rd" },
-        { title: "Having a Blast", rating: 10.0, placement: "none" },
-        { title: "Chump", rating: 8.7, placement: "none" },
-        { title: "Longview", rating: 9.5, placement: "none" },
-        { title: "Welcome to Paradise", rating: 9.6, placement: "none" },
+        { title: "Having a Blast", rating: 9.5, placement: "none" },
+        { title: "Chump", rating: 8.5, placement: "none" },
+        { title: "Longview", rating: 9.8, placement: "none" },
+        { title: "Welcome to Paradise", rating: 10.0, placement: "none" },
         { title: "Pulling Teeth", rating: 10.0, placement: "none" },
         { title: "Basket Case", rating: 10.0, placement: "2nd" },
-        { title: "She", rating: 9.0, placement: "none" },
-        { title: "Sassafras Roots", rating: 8.5, placement: "none" },
-        { title: "When I Come Around", rating: 10.0, placement: "1st" },
-        { title: "Coming Clean", rating: 8.4, placement: "none" },
-        { title: "Emenius Sleepus", rating: 9.5, placement: "none" },
-        { title: "In the End", rating: 9.7, placement: "none" },
-        { title: "F.O.D.", rating: 8.5, placement: "none" },
-        { title: "All by Myself", rating: 7.0, placement: "none" },
+        { title: "She", rating: 8.5, placement: "none" },
+        { title: "Sassafras Roots", rating: 8.0, placement: "none" },
+        { title: "When I Come Around", rating: 10.1, placement: "1st" },
+        { title: "Coming Clean", rating: 7.0, placement: "none" },
+        { title: "Emenius Sleepus", rating: 9.6, placement: "none" },
+        { title: "In the End", rating: 9.5, placement: "none" },
+        { title: "F.O.D.", rating: 10.0, placement: "none" },
+        { title: "All by Myself", rating: 7.5, placement: "none" },
       ],
       get avg() {
         return (
@@ -241,22 +241,22 @@ export const albums = {
     },
     {
       title: "GNX",
-      artist: "GNX",
+      artist: "Kendrick Lamar",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Faa7b86debf8b362bad3018cb881cfdc1.1000x1000x1.png",
       songs: [
-        { title: "wacced out murals", rating: 7.0, placement: "none" },
-        { title: "squabble up", rating: 9.7, placement: "none" },
-        { title: "luther", rating: 10.0, placement: "3rd" },
-        { title: "man at the garden", rating: 8.5, placement: "none" },
-        { title: "hey now", rating: 9.0, placement: "none" },
-        { title: "reincarnated", rating: 10.0, placement: "2nd" },
-        { title: "tv off", rating: 9.3, placement: "none" },
-        { title: "dodger blue", rating: 8.0, placement: "none" },
-        { title: "peekaboo", rating: 9.5, placement: "none" },
+        { title: "wacced out murals", rating: 6.5, placement: "none" },
+        { title: "squabble up", rating: 8.7, placement: "none" },
+        { title: "luther", rating: 9.0, placement: "3rd" },
+        { title: "man at the garden", rating: 7.8, placement: "none" },
+        { title: "hey now", rating: 8.0, placement: "none" },
+        { title: "reincarnated", rating: 9.7, placement: "2nd" },
+        { title: "tv off", rating: 9.0, placement: "none" },
+        { title: "dodger blue", rating: 7.0, placement: "none" },
+        { title: "peekaboo", rating: 8.5, placement: "none" },
         { title: "heart pt.6", rating: 10.0, placement: "1st" },
-        { title: "gnx", rating: 7.0, placement: "none" },
-        { title: "gloria", rating: 7.5, placement: "none" },
+        { title: "gnx", rating: 5.8, placement: "none" },
+        { title: "gloria", rating: 6.0, placement: "none" },
       ],
       get avg() {
         return (
@@ -501,6 +501,107 @@ export const albums = {
         { title: "Seigfried", rating: 10.1, placement: "1st" },
         { title: "Godspeed", rating: 9.8, placement: "none" },
         { title: "Futura Free", rating: 9.0, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "When The Pawn...",
+      artist: "Fiona Apple",
+      cover:
+        "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F65a8cb694b1227cf62f9a95d639343ca.1000x1000x1.png",
+      songs: [
+        { title: "On The Bound", rating: 9.5, placement: "none" },
+        { title: "To Your Love", rating: 8.4, placement: "none" },
+        { title: "Limp", rating: 9.0, placement: "none" },
+        { title: "Love Ridden", rating: 9.2, placement: "none" },
+        { title: "A Mistake", rating: 9.1, placement: "none" },
+        { title: "Paper Bag", rating: 10.0, placement: "3rd" },
+        { title: "Fast As You Can", rating: 8.0, placement: "none" },
+        { title: "The Way Things Are", rating: 10.0, placement: "1st" },
+        { title: "Get Gone", rating: 10.0, placement: "2nd" },
+        { title: "I Know", rating: 10.0, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+
+    {
+      title: "Tidal",
+      artist: "Fiona Apple",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F142d665ba13db54bd2237a8cc111383b.1000x1000x1.jpg",
+      songs: [
+        { title: "Sleep to Dream", rating: 9.8, placement: "2nd" },
+        { title: "Sullen Girl", rating: 10.0, placement: "1st" },
+        { title: "Shadowboxer", rating: 8.7, placement: "none" },
+        { title: "Criminal", rating: 9.6, placement: "none" },
+        { title: "Slow Like Honey", rating: 8.2, placement: "none" },
+        { title: "The First Taste", rating: 9.8, placement: "3rd" },
+        { title: "Never Is a Promise", rating: 8.0, placement: "none" },
+        { title: "The Child Is Gone", rating: 9.0, placement: "none" },
+        { title: "Pale September", rating: 9.5, placement: "none" },
+        { title: "Carrion", rating: 9.1, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+
+    {
+      title: "Love Deluxe",
+      artist: "Sade",
+      cover:
+        "https://t2.genius.com/unsafe/563x0/https%3A%2F%2Fimages.genius.com%2F9f56e2b608e7164a504b3373cc507c9d.600x600x1.png",
+      songs: [
+        { title: "No Ordinary Love", rating: 9.9, placement: "3rd" },
+        { title: "Feel No Pain", rating: 8.6, placement: "none" },
+        { title: "I Couldn't Love You More", rating: 7.5, placement: "none" },
+        { title: "Like a Tattoo", rating: 10.0, placement: "2nd" },
+        { title: "Kiss of Life", rating: 9.5, placement: "none" },
+        { title: "Cherish the Day", rating: 9.0, placement: "none" },
+        { title: "Pearls", rating: 10.1, placement: "1st" },
+        { title: "Bullet Proof Soul", rating: 9.2, placement: "none" },
+        { title: "Mermaid", rating: 8.9, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+
+    {
+      title: "Diamond Life",
+      artist: "Sade",
+      cover:
+        "https://t2.genius.com/unsafe/563x0/https%3A%2F%2Fimages.genius.com%2Ff557bc2f32e38800a9c334f90ef1a1bc.1000x1000x1.jpg",
+      songs: [
+        { title: "Smooth Operator", rating: 10.0, placement: "1st" },
+        { title: "Your Love Is King", rating: 9.5, placement: "3rd" },
+        { title: "Hang On to Your Love", rating: 9.0, placement: "none" },
+        { title: "Frankie's First Affair", rating: 8.4, placement: "none" },
+        {
+          title: "When Am I Going To Make A Living",
+          rating: 9.1,
+          placement: "none",
+        },
+        { title: "Cherry Pie", rating: 9.0, placement: "none" },
+        { title: "Sally", rating: 10.0, placement: "2nd" },
+        { title: "I Will Be Your Friend", rating: 9.2, placement: "none" },
+        { title: "Why Can't We Live Together", rating: 7.5, placement: "none" },
       ],
       get avg() {
         return (
