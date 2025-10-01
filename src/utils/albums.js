@@ -255,8 +255,8 @@ export const albums = {
         { title: "dodger blue", rating: 7.0, placement: "none" },
         { title: "peekaboo", rating: 8.5, placement: "none" },
         { title: "heart pt.6", rating: 10.0, placement: "1st" },
-        { title: "gnx", rating: 5.8, placement: "none" },
-        { title: "gloria", rating: 6.0, placement: "none" },
+        { title: "gnx", rating: 6.0, placement: "none" },
+        { title: "gloria", rating: 5.8, placement: "none" },
       ],
       get avg() {
         return (
