@@ -155,15 +155,15 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fcae5014446bde04b411c6fa684963ba8.592x592x1.webp",
       songs: [
-        { title: "Villuminati", rating: 8.0, placement: "none" },
+        { title: "Villuminati", rating: 9.0, placement: "none" },
         { title: "Kerney Sermon - Skit", rating: 8.5, placement: "none" },
         { title: "Land Of The Snakes", rating: 8.0, placement: "none" },
-        { title: "Power Trip", rating: 9.1, placement: "none" },
-        { title: "No Money - Interlude", rating: 7.0, placement: "none" },
-        { title: "Trouble", rating: 6.5, placement: "none" },
-        { title: "Runaway", rating: 7.5, placement: "none" },
+        { title: "Power Trip", rating: 9.3, placement: "none" },
+        { title: "No Money - Interlude", rating: 6.5, placement: "none" },
+        { title: "Trouble", rating: 6.0, placement: "none" },
+        { title: "Runaway", rating: 7.0, placement: "none" },
         { title: "She Knows", rating: 10.1, placement: "1st" },
-        { title: "Rich Niggaz", rating: 8.0, placement: "none" },
+        { title: "Rich Niggaz", rating: 7.5, placement: "none" },
         { title: "Where's Jerimaine? - Skit", rating: 9.0, placement: "none" },
         { title: "Forbidden Fruit", rating: 10.0, placement: "3rd" },
         { title: "Chaining Day", rating: 7.0, placement: "none" },
@@ -174,7 +174,7 @@ export const albums = {
         },
         { title: "Crooked Smile", rating: 10.0, placement: "none" },
         { title: "Let Nas Down", rating: 10.0, placement: "2nd" },
-        { title: "Born Sinner", rating: 7.5, placement: "none" },
+        { title: "Born Sinner", rating: 8.5, placement: "none" },
       ],
       get avg() {
         return (
