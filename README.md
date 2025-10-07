@@ -67,4 +67,4 @@ Open [http://localhost:3000](http://localhost:3000) to view in your browser.
 
 ## 🔮 PS
 
-Click my name on the site for more!
+**⭐ Click my name on the site for more! ⭐**
