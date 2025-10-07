@@ -1,6 +1,12 @@
-# [🎵 iRate](https://i-rate.vercel.app)
+# iRate 🎶
 
 **iRate** is a React-based music rating app where you can browse albums I’ve rated, see each song with its individual score, and check artists ranked by their average rating.
+
+---
+
+## 🌐 Live Demo
+
+Explore the website [here](https://i-rate.vercel.app)
 
 ---
 
