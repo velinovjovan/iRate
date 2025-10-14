@@ -271,18 +271,18 @@ export const albums = {
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fdab625b81d82c75be5b77e2bd44e52be.1000x1000x1.png",
       songs: [
-        { title: "Smells Like Teen Spirit", rating: 9.8, placement: "3rd" },
-        { title: "In Bloom", rating: 8.0, placement: "none" },
+        { title: "Smells Like Teen Spirit", rating: 10.0, placement: "3rd" },
+        { title: "In Bloom", rating: 8.5, placement: "none" },
         { title: "Come As You Are", rating: 10.0, placement: "2nd" },
         { title: "Breed", rating: 7.5, placement: "none" },
         { title: "Lithium", rating: 10.1, placement: "1st" },
         { title: "Polly", rating: 6.5, placement: "none" },
         { title: "Territorial Pissings", rating: 6.0, placement: "none" },
         { title: "Drain You", rating: 8.0, placement: "none" },
-        { title: "Lounge Act", rating: 8.2, placement: "none" },
+        { title: "Lounge Act", rating: 8.5, placement: "none" },
         { title: "Stay Away", rating: 7.8, placement: "none" },
         { title: "On A Plain", rating: 9.0, placement: "none" },
-        { title: "Something In The Way", rating: 9.3, placement: "none" },
+        { title: "Something In The Way", rating: 9.5, placement: "none" },
         { title: "Endless, Nameless", rating: 6.0, placement: "none" },
       ],
       get avg() {
