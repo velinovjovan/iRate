@@ -265,6 +265,63 @@ export const albums = {
         );
       },
     },
+    {
+      title: "Nevermind",
+      artist: "Nirvana",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fdab625b81d82c75be5b77e2bd44e52be.1000x1000x1.png",
+      songs: [
+        { title: "Smells Like Teen Spirit", rating: 9.8, placement: "3rd" },
+        { title: "In Bloom", rating: 8.0, placement: "none" },
+        { title: "Come As You Are", rating: 10.0, placement: "2nd" },
+        { title: "Breed", rating: 7.5, placement: "none" },
+        { title: "Lithium", rating: 10.1, placement: "1st" },
+        { title: "Polly", rating: 6.5, placement: "none" },
+        { title: "Territorial Pissings", rating: 6.0, placement: "none" },
+        { title: "Drain You", rating: 8.0, placement: "none" },
+        { title: "Lounge Act", rating: 8.2, placement: "none" },
+        { title: "Stay Away", rating: 7.8, placement: "none" },
+        { title: "On A Plain", rating: 9.0, placement: "none" },
+        { title: "Something In The Way", rating: 9.3, placement: "none" },
+        { title: "Endless, Nameless", rating: 6.0, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "AM",
+      artist: "Arctic Monkeys",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8189e957069d9b6c7accea66c7fbab10.1000x1000x1.png",
+      songs: [
+        { title: "Do I Wanna Know?", rating: 10.0, placement: "none" },
+        { title: "R U Mine?", rating: 10.0, placement: "none" },
+        { title: "One For The Road", rating: 9.3, placement: "none" },
+        { title: "Arabella", rating: 9.7, placement: "none" },
+        { title: "I Want It All", rating: 8.0, placement: "none" },
+        { title: "No.1 Party Anthem", rating: 10.1, placement: "1st" },
+        { title: "Mad Sounds", rating: 9.2, placement: "none" },
+        { title: "Fireside", rating: 10.0, placement: "3rd" },
+        {
+          title: "Why'd You Only Call Me When You're High",
+          rating: 9.8,
+          placement: "none",
+        },
+        { title: "Snap Out Of It", rating: 9.0, placement: "none" },
+        { title: "Knee Socks", rating: 10.0, placement: "none" },
+        { title: "I Wanna Be Yours", rating: 10.1, placement: "2nd" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
   ],
   meli: [
     {
@@ -602,6 +659,255 @@ export const albums = {
         { title: "Sally", rating: 10.0, placement: "2nd" },
         { title: "I Will Be Your Friend", rating: 9.2, placement: "none" },
         { title: "Why Can't We Live Together", rating: 7.5, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "Born To Die (The Paradise Edition)",
+      artist: "Lana Del Rey",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F5ca29d15f0592a32ff9bee5560626cd3.1000x1000x1.png",
+      songs: [
+        { title: "Born To Die", rating: 10, placement: "none" },
+        { title: "Off To The Races", rating: 9.2, placement: "none" },
+        { title: "Blue Jeans", rating: 10, placement: "none" },
+        { title: "Video Games", rating: 9.5, placement: "none" },
+        { title: "Diet Mountain Dew", rating: 10, placement: "none" },
+        { title: "National Anthem", rating: 10, placement: "3rd" },
+        { title: "Dark Paradise", rating: 10, placement: "2nd" },
+        { title: "Radio", rating: 10, placement: "none" },
+        { title: "Carmen", rating: 9.7, placement: "none" },
+        { title: "Million Dollar Man", rating: 9.5, placement: "none" },
+        { title: "Summertime Sadness", rating: 9.5, placement: "none" },
+        {
+          title: "This Is What Makes Us Girls",
+          rating: 9.6,
+          placement: "none",
+        },
+        { title: "Without You", rating: 9.8, placement: "none" },
+        { title: "Lolita", rating: 7.5, placement: "none" },
+        { title: "Lucky Ones", rating: 9.7, placement: "none" },
+        { title: "Ride", rating: 10.1, placement: "1st" },
+        { title: "American", rating: 8.9, placement: "none" },
+        { title: "Cola", rating: 9.2, placement: "none" },
+        { title: "Body Electric", rating: 9, placement: "none" },
+        { title: "Blue Velvet", rating: 10, placement: "none" },
+        { title: "Gods & Monsters", rating: 9.3, placement: "none" },
+        { title: "Yayo", rating: 9, placement: "none" },
+        { title: "Bel Air", rating: 9.7, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "Ultraviolence",
+      artist: "Lana Del Rey",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F2d75da553694a85f5ea5879a6ed54745.1000x1000x1.png",
+      songs: [
+        { title: "Cruel World", rating: 10, placement: "none" },
+        { title: "Ultraviolence", rating: 10, placement: "none" },
+        { title: "Shades Of Cool", rating: 9.8, placement: "none" },
+        { title: "Brooklyn Baby", rating: 9.6, placement: "none" },
+        { title: "West Coast", rating: 10, placement: "2nd" },
+        { title: "Sad Girl", rating: 9.8, placement: "none" },
+        { title: "Pretty When You Cry", rating: 10, placement: "1st" },
+        { title: "Money Power Glory", rating: 9.3, placement: "none" },
+        {
+          title: "Fucked My Way Up To The Top",
+          rating: 9.1,
+          placement: "none",
+        },
+        { title: "Old Money", rating: 9.5, placement: "none" },
+        { title: "The Other Woman", rating: 10, placement: "3rd" },
+        { title: "Black Beauty", rating: 9.8, placement: "none" },
+        { title: "Guns And Roses", rating: 8.9, placement: "none" },
+        { title: "Florida Kilos", rating: 9.9, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "Honeymoon",
+      artist: "Lana Del Rey",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fe18c20526b8fea8446f8bd6e1db92f27.1000x1000x1.png",
+      songs: [
+        { title: "Honeymoon", rating: 10.1, placement: "1st" },
+        { title: "Music To Watch Boys To", rating: 9.8, placement: "none" },
+        { title: "Terrence Loves You", rating: 8.8, placement: "none" },
+        { title: "God Knows I Tried", rating: 10, placement: "none" },
+        { title: "High By The Beach", rating: 9.8, placement: "none" },
+        { title: "Freak", rating: 9.5, placement: "none" },
+        { title: "Art Deco", rating: 10, placement: "3rd" },
+        { title: "Burnt Norton - Interlude", rating: 9.6, placement: "none" },
+        { title: "Religion", rating: 9.2, placement: "none" },
+        { title: "Salvatore", rating: 9.7, placement: "none" },
+        { title: "The Blackest Day", rating: 10, placement: "2nd" },
+        { title: "24", rating: 9.5, placement: "none" },
+        { title: "Swan Song", rating: 9.2, placement: "none" },
+        {
+          title: "Don't Let Me Be Misunderstood",
+          rating: 9,
+          placement: "none",
+        },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "Lust For Life",
+      artist: "Lana Del Rey",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F92e6ef7151a3ece56d2754dd38ef58d3.1000x1000x1.png",
+      songs: [
+        { title: "Love", rating: 9, placement: "none" },
+        { title: "Lust For Life", rating: 9.5, placement: "none" },
+        { title: "13 Beaches", rating: 8.8, placement: "none" },
+        { title: "Cherry", rating: 9.8, placement: "none" },
+        { title: "White Mustang", rating: 10, placement: "1st" },
+        { title: "Summer Bummer", rating: 10, placement: "2nd" },
+        { title: "Groupie Love", rating: 9.7, placement: "none" },
+        { title: "In My Feelings", rating: 8.5, placement: "none" },
+        {
+          title: "Coachella - Woodstock In My Mind",
+          rating: 7.5,
+          placement: "none",
+        },
+        {
+          title: "God Bless America - And All The Beautiful Women In It",
+          rating: 9,
+          placement: "none",
+        },
+        {
+          title: "When The World Was At War We Kept Dancing",
+          rating: 7.5,
+          placement: "none",
+        },
+        {
+          title: "Beautiful People Beautiful Problems",
+          rating: 9.6,
+          placement: "none",
+        },
+        { title: "Tomorrow Never Came", rating: 9.9, placement: "3rd" },
+        { title: "Herion", rating: 8.8, placement: "none" },
+        { title: "Change", rating: 9, placement: "none" },
+        { title: "Get Free", rating: 9.5, placement: "none" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "Norman Fucking Rockwell",
+      artist: "Lana Del Rey",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fe796229756efd491e842812e8af1df47.1000x1000x1.png",
+      songs: [
+        { title: "Norman Fucking Rockwell", rating: 10, placement: "2nd" },
+        { title: "Mariners Apartment Complex", rating: 9.8, placement: "none" },
+        { title: "Venice Bitch", rating: 9.9, placement: "none" },
+        { title: "Fuck it I love you", rating: 9.7, placement: "none" },
+        { title: "Doin' Time", rating: 9.5, placement: "none" },
+        { title: "Love song", rating: 9.3, placement: "none" },
+        { title: "Cinnamon Girl", rating: 10, placement: "3rd" },
+        { title: "How to disappear", rating: 9.6, placement: "none" },
+        { title: "California", rating: 9.5, placement: "none" },
+        {
+          title: "The Next Best American Record",
+          rating: 8.5,
+          placement: "none",
+        },
+        { title: "The greatest", rating: 9.9, placement: "none" },
+        { title: "Bartender", rating: 9.6, placement: "none" },
+        { title: "Happiness is a butterfly", rating: 9.8, placement: "none" },
+        {
+          title:
+            "hope is a dangerous thing for a woman like me to have -but I have it",
+          rating: 10,
+          placement: "1st",
+        },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "Back To Black",
+      artist: "Amy Winehouse",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F2517e498e32bcb597265cf923480e473.1000x1000x1.png",
+      songs: [
+        { title: "Rehab", rating: 10, placement: "none" },
+        { title: "You Know I'm Not Good", rating: 10.1, placement: "1st" },
+        { title: "Me & Mr Jones", rating: 10, placement: "none" },
+        { title: "Just Friends", rating: 9, placement: "none" },
+        { title: "Back To Black", rating: 10, placement: "none" },
+        { title: "Love Is A Losing Game", rating: 10, placement: "3rd" },
+        { title: "Tears Dry On Their Own", rating: 10, placement: "none" },
+        { title: "Wake Up Alone", rating: 9.6, placement: "none" },
+        { title: "Some Unholy War", rating: 9.8, placement: "none" },
+        { title: "He Can Only Hold Her", rating: 9.5, placement: "none" },
+        { title: "Addicted", rating: 9.2, placement: "none" },
+        { title: "Valerie", rating: 10.1, placement: "none" },
+        { title: "Cupid", rating: 10, placement: "none" },
+        { title: "Monkey Man", rating: 8.5, placement: "none" },
+        { title: "Hey Little Rich Girl", rating: 9.4, placement: "none" },
+        { title: "You're Wondering Now", rating: 9.2, placement: "none" },
+        { title: "To Know Him Is To Love Him", rating: 10, placement: "2nd" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
+    {
+      title: "AM",
+      artist: "Arctic Monkeys",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8189e957069d9b6c7accea66c7fbab10.1000x1000x1.png",
+      songs: [
+        { title: "Do I Wanna Know", rating: 9.4, placement: "none" },
+        { title: "R U Mine?", rating: 9.1, placement: "none" },
+        { title: "One For The Road", rating: 9, placement: "none" },
+        { title: "Arabella", rating: 10, placement: "2nd" },
+        { title: "I Want It All", rating: 8, placement: "none" },
+        { title: "No.1 Party Anthemn", rating: 10, placement: "3rd" },
+        { title: "Mad Sounds", rating: 9.6, placement: "none" },
+        { title: "Fireside", rating: 9, placement: "none" },
+        {
+          title: "Whyd You Only Call Me When You're High",
+          rating: 9.6,
+          placement: "none",
+        },
+        { title: "Snap Out Of It", rating: 10, placement: "none" },
+        { title: "Knee Socks", rating: 9.8, placement: "none" },
+        { title: "I Wanna Be Yours", rating: 10.1, placement: "1st" },
       ],
       get avg() {
         return (
