@@ -322,6 +322,34 @@ export const albums = {
         );
       },
     },
+    {
+      title: "Insomniac",
+      artist: "Green Day",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F6ec8d9e5116bfd49f41421cd80ce3684.640x640x1.jpg",
+      songs: [
+        { title: "Armatage Shanks", rating: 9.1, placement: "none" },
+        { title: "Brat", rating: 8.5, placement: "none" },
+        { title: "Stuck with Me", rating: 8.9, placement: "none" },
+        { title: "Geek Stink Breath", rating: 9.0, placement: "none" },
+        { title: "No Pride", rating: 8.7, placement: "none" },
+        { title: "Bab's Uvula Who?", rating: 8.5, placement: "none" },
+        { title: "86", rating: 8.2, placement: "none" },
+        { title: "Panic Song", rating: 8.0, placement: "none" },
+        { title: "Stuart and the Ave.", rating: 9.0, placement: "none" },
+        { title: "Brain Stew", rating: 9.7, placement: "2nd" },
+        { title: "Jaded", rating: 9.5, placement: "3rd" },
+        { title: "Westbound Sign", rating: 8.8, placement: "none" },
+        { title: "Tight Wad Hill", rating: 7.8, placement: "none" },
+        { title: "Walking Contradiction", rating: 10.0, placement: "1st" },
+      ],
+      get avg() {
+        return (
+          this.songs.reduce((sum, song) => sum + song.rating, 0) /
+          this.songs.length
+        );
+      },
+    },
   ],
   meli: [
     {
