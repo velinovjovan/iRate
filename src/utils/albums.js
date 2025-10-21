@@ -157,7 +157,7 @@ export const albums = {
       songs: [
         { title: "Villuminati", rating: 9.2, placement: "none" },
         { title: "Kerney Sermon - Skit", rating: 9.0, placement: "none" },
-        { title: "Land Of The Snakes", rating: 9.8, placement: "none" },
+        { title: "Land Of The Snakes", rating: 10.0, placement: "none" },
         { title: "Power Trip", rating: 9.5, placement: "none" },
         { title: "No Money - Interlude", rating: 7.0, placement: "none" },
         { title: "Trouble", rating: 7.7, placement: "none" },
