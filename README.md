@@ -4,12 +4,6 @@
 
 ---
 
-## 🌐 Live Demo
-
-Explore the website [here](https://i-rate.vercel.app)
-
----
-
 ## ✨ Features
 
 - 📀 **Albums view** – browse through rated albums with covers, titles, and overall averages.
