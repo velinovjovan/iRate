@@ -4,16 +4,7 @@
 
 ---
 
-## ✨ Features
-
-- 📀 **Albums view** – browse through rated albums with covers, titles, and overall averages.
-- 🎶 **Songs view** – dive into each album to explore song ratings and best tracks.
-- 👨‍🎤 **Artists view** – compare artists based on their albums’ average scores.
-- 🎨 **Smooth animations** – powered by [GSAP](https://greensock.com/gsap) for a polished UI experience.
-
----
-
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
 - [React](https://react.dev) (bootstrapped with [Create React App](https://create-react-app.dev))
 - [GSAP](https://greensock.com/gsap) for animations
@@ -22,7 +13,7 @@
 
 ---
 
-## 🚀 Getting Started
+## 🧩 Installation
 
 ### 1. Clone the repo
 
@@ -44,18 +35,6 @@ npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view in your browser.
-
----
-
-## 📂 Project Structure
-
-```
-/public       → static assets (favicon, index.html)
-/src
-  /components → React components (Albums, Artists, Songs, etc.)
-  /utils      → Data files (albums.js, colors.js)
-  App.js      → Main app entry
-```
 
 ---
 
