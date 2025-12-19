@@ -6,22 +6,30 @@ import Album from "./Album";
 
 export default function Artists({ phase }) {
   const [sort, setSort] = useState("rating");
-  const [show, setShow] = useState("5");
+  const [genre, setGenre] = useState("all");
 
   const albumsRef = useRef(null);
 
   const albumi = phase ? albums.jovan : albums.meli;
-  let sortedAlbums = albumi.slice();
+  const genres = Array.from(new Set(albumi.map((a) => a.genre))).sort();
+  const filteredAlbums =
+    genre === "all" ? albumi : albumi.filter((a) => a.genre === genre);
+  let sortedAlbums = filteredAlbums.slice();
 
   if (sort === "chronological") {
-    sortedAlbums = albumi.slice();
+    sortedAlbums = filteredAlbums.slice();
   } else if (sort === "rating") {
-    sortedAlbums = albumi.slice().sort((a, b) => b.avg - a.avg);
+    sortedAlbums = filteredAlbums.slice().sort((a, b) => b.avg - a.avg);
   } else {
-    sortedAlbums = albumi
+    sortedAlbums = filteredAlbums
       .slice()
       .sort((a, b) => a.artist.localeCompare(b.artist));
   }
+
+  useEffect(() => {
+    setGenre("all");
+    setSort("rating");
+  }, [phase]);
 
   useEffect(() => {
     if (albumsRef.current) {
@@ -36,23 +44,22 @@ export default function Artists({ phase }) {
         }
       );
     }
-  }, [phase, albumi, sort, show]);
+  }, [phase, albumi, sort, genre]);
 
   return (
     <div>
       <Selects
         phase={phase}
-        show={show}
         sort={sort}
+        genre={genre}
+        genres={genres}
         setSort={setSort}
-        setShow={setShow}
+        setGenre={setGenre}
       />
       <div className="album-list" ref={albumsRef}>
-        {sortedAlbums
-          .slice(0, Number(show === "all" ? sortedAlbums.length : show))
-          .map((album, index) => (
-            <Album album={album} phase={phase} key={album.title} />
-          ))}
+        {sortedAlbums.map((album, index) => (
+          <Album album={album} phase={phase} key={album.title} />
+        ))}
       </div>
     </div>
   );

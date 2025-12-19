@@ -1,7 +1,14 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-export default function Selects({ sort, show, setSort, setShow, phase }) {
+export default function Selects({
+  sort,
+  genre,
+  genres,
+  setSort,
+  setGenre,
+  phase,
+}) {
   const selectsRef = useRef(null);
 
   useEffect(() => {
@@ -24,10 +31,13 @@ export default function Selects({ sort, show, setSort, setShow, phase }) {
         <option value="chronological">BY ADDITION</option>
         <option value="artist">BY ARTIST</option>
       </select>
-      <select value={show} onChange={(e) => setShow(e.target.value)}>
-        <option value="5">SHOW 5</option>
-        <option value="10">SHOW 10</option>
-        <option value="all">SHOW ALL</option>
+      <select value={genre} onChange={(e) => setGenre(e.target.value)}>
+        <option value="all">ALL GENRES</option>
+        {genres.map((g) => (
+          <option key={g} value={g}>
+            {g.toUpperCase()}
+          </option>
+        ))}
       </select>
     </div>
   );

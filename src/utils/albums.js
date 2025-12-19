@@ -6,6 +6,7 @@ export const albums = {
     {
       title: "To Pimp A Butterfly",
       artist: "Kendrick Lamar",
+      genre: "Hip-Hop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fde919556998a79d8ebfe51b9963121d1.1000x1000x1.png",
       songs: [
@@ -37,6 +38,7 @@ export const albums = {
     {
       title: "good kid, m.A.A.d city",
       artist: "Kendrick Lamar",
+      genre: "Hip-Hop",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2Fb4d6d87f080c362200ce55ed35ec65bb.1000x1000x1.png",
       songs: [
@@ -70,6 +72,7 @@ export const albums = {
     {
       title: "Grace",
       artist: "Jeff Buckley",
+      genre: "Alternative",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8dd609cb1f601ff21ec21c888cc25773.1000x1000x1.png",
       songs: [
@@ -96,6 +99,7 @@ export const albums = {
     {
       title: "Frank",
       artist: "Amy Winehouse",
+      genre: "Soul",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fe2c709ffce2aa9d18dc1f08698f1275f.1000x1000x1.png",
       songs: [
@@ -135,6 +139,7 @@ export const albums = {
     {
       title: "Madvillainy",
       artist: "MF DOOM",
+      genre: "Hip-Hop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F34ca415cf9ccfd68d859fb84e3645e8a.768x768x1.jpg",
       songs: [
@@ -175,6 +180,7 @@ export const albums = {
     {
       title: "Operation: Doomsday",
       artist: "MF DOOM",
+      genre: "Hip-Hop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F244fc416deda77738fea30048e2e6201.1000x1000x1.png",
       songs: [
@@ -209,6 +215,7 @@ export const albums = {
     {
       title: "Doris",
       artist: "Earl Sweatshirt",
+      genre: "Hip-Hop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fc5a84e1fffc69e59a2cae6e1e07f2f13.720x720x1.png",
       songs: [
@@ -235,6 +242,7 @@ export const albums = {
     {
       title: "channel ORANGE",
       artist: "Frank Ocean",
+      genre: "R&B",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F6523ef2dbe975dd04570ee626edf53ca.1000x1000x1.png",
       songs: [
@@ -263,6 +271,7 @@ export const albums = {
     {
       title: "Blonde",
       artist: "Frank Ocean",
+      genre: "R&B",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F750737a023d383b93057b73d546bfe4e.1000x1000x1.png",
       songs: [
@@ -291,6 +300,7 @@ export const albums = {
     {
       title: "When The Pawn...",
       artist: "Fiona Apple",
+      genre: "Alternative",
       cover:
         "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F65a8cb694b1227cf62f9a95d639343ca.1000x1000x1.png",
       songs: [
@@ -313,6 +323,7 @@ export const albums = {
     {
       title: "Tidal",
       artist: "Fiona Apple",
+      genre: "Alternative",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F142d665ba13db54bd2237a8cc111383b.1000x1000x1.jpg",
       songs: [
@@ -335,6 +346,7 @@ export const albums = {
     {
       title: "Love Deluxe",
       artist: "Sade",
+      genre: "R&B",
       cover:
         "https://t2.genius.com/unsafe/563x0/https%3A%2F%2Fimages.genius.com%2F9f56e2b608e7164a504b3373cc507c9d.600x600x1.png",
       songs: [
@@ -356,6 +368,7 @@ export const albums = {
     {
       title: "Diamond Life",
       artist: "Sade",
+      genre: "R&B",
       cover:
         "https://t2.genius.com/unsafe/563x0/https%3A%2F%2Fimages.genius.com%2Ff557bc2f32e38800a9c334f90ef1a1bc.1000x1000x1.jpg",
       songs: [
@@ -380,6 +393,7 @@ export const albums = {
     {
       title: "Born To Die (The Paradise Edition)",
       artist: "Lana Del Rey",
+      genre: "Pop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F5ca29d15f0592a32ff9bee5560626cd3.1000x1000x1.png",
       songs: [
@@ -418,6 +432,7 @@ export const albums = {
     {
       title: "Ultraviolence",
       artist: "Lana Del Rey",
+      genre: "Pop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F2d75da553694a85f5ea5879a6ed54745.1000x1000x1.png",
       songs: [
@@ -447,6 +462,7 @@ export const albums = {
     {
       title: "Honeymoon",
       artist: "Lana Del Rey",
+      genre: "Pop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fe18c20526b8fea8446f8bd6e1db92f27.1000x1000x1.png",
       songs: [
@@ -476,6 +492,7 @@ export const albums = {
     {
       title: "Lust For Life",
       artist: "Lana Del Rey",
+      genre: "Pop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F92e6ef7151a3ece56d2754dd38ef58d3.1000x1000x1.png",
       songs: [
@@ -519,6 +536,7 @@ export const albums = {
     {
       title: "Norman Fucking Rockwell",
       artist: "Lana Del Rey",
+      genre: "Pop",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fe796229756efd491e842812e8af1df47.1000x1000x1.png",
       songs: [
@@ -553,6 +571,7 @@ export const albums = {
     {
       title: "Back To Black",
       artist: "Amy Winehouse",
+      genre: "Soul",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F2517e498e32bcb597265cf923480e473.1000x1000x1.png",
       songs: [
@@ -581,6 +600,7 @@ export const albums = {
     {
       title: "AM",
       artist: "Arctic Monkeys",
+      genre: "Rock",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8189e957069d9b6c7accea66c7fbab10.1000x1000x1.png",
       songs: [
