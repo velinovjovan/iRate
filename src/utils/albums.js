@@ -1,3 +1,6 @@
+const computeAvg = (songs) =>
+  songs.reduce((sum, song) => sum + song.rating, 0) / songs.length;
+
 export const albums = {
   jovan: [
     {
@@ -28,10 +31,7 @@ export const albums = {
         { title: "Mortal Man", rating: 10.0, placement: "3rd" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -62,10 +62,7 @@ export const albums = {
         { title: "Compton", rating: 7.0, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
   ],
@@ -93,10 +90,7 @@ export const albums = {
         { title: "Forget Her", rating: 10.0, placement: "2nd" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -135,10 +129,7 @@ export const albums = {
         },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -178,10 +169,7 @@ export const albums = {
         { title: "Rhinestone Cowboy", rating: 9.3, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -215,10 +203,7 @@ export const albums = {
         { title: "Hero v.s. Villain", rating: 6.9, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -244,10 +229,7 @@ export const albums = {
         { title: "Knight", rating: 9.2, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -275,10 +257,7 @@ export const albums = {
         { title: "End", rating: 9.4, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -306,10 +285,7 @@ export const albums = {
         { title: "Futura Free", rating: 9.0, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -330,10 +306,7 @@ export const albums = {
         { title: "I Know", rating: 10.0, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
 
@@ -355,10 +328,7 @@ export const albums = {
         { title: "Carrion", rating: 9.1, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
 
@@ -379,10 +349,7 @@ export const albums = {
         { title: "Mermaid", rating: 8.9, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
 
@@ -407,10 +374,7 @@ export const albums = {
         { title: "Why Can't We Live Together", rating: 7.5, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -448,10 +412,7 @@ export const albums = {
         { title: "Bel Air", rating: 9.7, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -480,10 +441,7 @@ export const albums = {
         { title: "Florida Kilos", rating: 9.9, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -512,10 +470,7 @@ export const albums = {
         },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -558,10 +513,7 @@ export const albums = {
         { title: "Get Free", rating: 9.5, placement: "none" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -595,10 +547,7 @@ export const albums = {
         },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -626,10 +575,7 @@ export const albums = {
         { title: "To Know Him Is To Love Him", rating: 10, placement: "2nd" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
     {
@@ -656,10 +602,7 @@ export const albums = {
         { title: "I Wanna Be Yours", rating: 10.0, placement: "1st" },
       ],
       get avg() {
-        return (
-          this.songs.reduce((sum, song) => sum + song.rating, 0) /
-          this.songs.length
-        );
+        return computeAvg(this.songs);
       },
     },
   ],
