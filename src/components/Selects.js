@@ -21,7 +21,7 @@ export default function Selects({ sort, show, setSort, setShow, phase }) {
     <div className="selects" ref={selectsRef}>
       <select value={sort} onChange={(e) => setSort(e.target.value)}>
         <option value="rating">BY RATING</option>
-        <option value="chronological">CHRONOLOGICAL</option>
+        <option value="chronological">BY ADDITION</option>
         <option value="artist">BY ARTIST</option>
       </select>
       <select value={show} onChange={(e) => setShow(e.target.value)}>

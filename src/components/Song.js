@@ -1,4 +1,5 @@
 import { colors } from "../utils/colors";
+import ratingToColor from "../utils/ratingColor";
 
 export default function Song({ song, phase }) {
   return (
@@ -33,39 +34,8 @@ export default function Song({ song, phase }) {
       <span
         className="song-rating"
         style={{
-          backgroundColor:
-            song.rating >= 10.1
-              ? "#327086"
-              : song.rating >= 9.9
-              ? "#3D88A4"
-              : song.rating >= 9.5
-              ? "#507E4E"
-              : song.rating >= 9.0
-              ? "#69A267"
-              : song.rating >= 8.5
-              ? "#8FB98D"
-              : song.rating >= 8.0
-              ? "#B5D0B3"
-              : song.rating >= 7.5
-              ? "#CEE0CC"
-              : song.rating >= 7.0
-              ? "#DBE8D9"
-              : song.rating >= 6.5
-              ? "#F2D891"
-              : song.rating >= 6.0
-              ? "#ECC55B"
-              : song.rating >= 5.5
-              ? "#E7B836"
-              : song.rating >= 5.0
-              ? "#F4783E"
-              : song.rating >= 4.5
-              ? "#F4783E"
-              : song.rating >= 4.0
-              ? "#CD3F3C"
-              : song.rating >= 3.5
-              ? "#CD3F3C"
-              : "#aa2e2c",
-          color: song.rating > 10 ? "white" : "black",
+          backgroundColor: ratingToColor(song.rating),
+          color: "black",
         }}
       >
         {" "}

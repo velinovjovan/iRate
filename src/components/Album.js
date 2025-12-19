@@ -3,6 +3,7 @@ import { colors } from "../utils/colors";
 import CountUp from "react-countup";
 import gsap from "gsap";
 import SongList from "./SongList";
+import ratingToColor from "../utils/ratingColor";
 
 export default function Album({ phase, album }) {
   const [show, setShow] = useState(false);
@@ -60,38 +61,7 @@ export default function Album({ phase, album }) {
             <p
               className="album-avg"
               style={{
-                backgroundColor:
-                  album.avg >= 10.1
-                    ? "#327086"
-                    : album.avg >= 9.9
-                    ? "#3D88A4"
-                    : album.avg >= 9.5
-                    ? "#507E4E"
-                    : album.avg >= 9.0
-                    ? "#69A267"
-                    : album.avg >= 8.5
-                    ? "#8FB98D"
-                    : album.avg >= 8.0
-                    ? "#B5D0B3"
-                    : album.avg >= 7.5
-                    ? "#CEE0CC"
-                    : album.avg >= 7.0
-                    ? "#DBE8D9"
-                    : album.avg >= 6.5
-                    ? "#F2D891"
-                    : album.avg >= 6.0
-                    ? "#ECC55B"
-                    : album.avg >= 5.5
-                    ? "#E7B836"
-                    : album.avg >= 5.0
-                    ? "#F4783E"
-                    : album.avg >= 4.5
-                    ? "#F4783E"
-                    : album.avg >= 4.0
-                    ? "#CD3F3C"
-                    : album.avg >= 3.5
-                    ? "#CD3F3C"
-                    : "#aa2e2c",
+                backgroundColor: ratingToColor(album.avg),
               }}
             >
               <CountUp
