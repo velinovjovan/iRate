@@ -61,7 +61,90 @@ export const albums = {
           placement: "1st",
         },
         { title: "Real", rating: 10.0, placement: "3rd" },
-        { title: "Compton", rating: 7.0, placement: "none" },
+        { title: "Compton", rating: 6.5, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Illmatic",
+      artist: "Nas",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8753de258796b1f91adfedde591e85be.750x750x1.jpg",
+      songs: [
+        { title: "The Genesis", rating: 8.0, placement: "none" },
+        { title: "N.Y. State of Mind", rating: 9.5, placement: "none" },
+        { title: "Life's a Bitch", rating: 10.0, placement: "none" },
+        { title: "The World Is Yours", rating: 10.0, placement: "none" },
+        { title: "Halftime", rating: 10.0, placement: "2nd" },
+        {
+          title: "Memory Lane (Sittin' in da Park)",
+          rating: 10.0,
+          placement: "1st",
+        },
+        { title: "One Love", rating: 7.5, placement: "none" },
+        { title: "One Time 4 Your Mind", rating: 7.5, placement: "none" },
+        { title: "Represent", rating: 10.0, placement: "3rd" },
+        { title: "It Ain't Hard to Tell", rating: 9.5, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Mos Def & Talib Kweli Are Black Star",
+      artist: "Black Star",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F5ca0d25972fba50c0c15de1a133be1ae.1000x1000x1.jpg",
+      songs: [
+        { title: "Intro", rating: 9.0, placement: "none" },
+        { title: "Astronomy (8th Light)", rating: 10.0, placement: "none" },
+        { title: "Definition", rating: 10.0, placement: "3rd" },
+        { title: "Re:Definition", rating: 8.5, placement: "none" },
+        { title: "Children's Story", rating: 9.0, placement: "none" },
+        { title: "Brown Skin Lady", rating: 9.5, placement: "none" },
+        { title: "B Boys Will B Boys", rating: 7.0, placement: "none" },
+        { title: "K.O.S. (Determination)", rating: 10.0, placement: "none" },
+        { title: "Hater Players", rating: 6.0, placement: "none" },
+        { title: "Yo Yeah", rating: 8.0, placement: "none" },
+        { title: "Respiration", rating: 10.0, placement: "2nd" },
+        { title: "Thieves In The Night", rating: 10.0, placement: "1st" },
+        { title: "Twice Inna Lifetime", rating: 6.0, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Born Sinner",
+      artist: "J. Cole",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fcae5014446bde04b411c6fa684963ba8.592x592x1.webp",
+      songs: [
+        { title: "Villuminati", rating: 9.5, placement: "none" },
+        { title: "Kerney Sermon - Skit", rating: 9.0, placement: "none" },
+        { title: "Land Of The Snakes", rating: 10.0, placement: "1st" },
+        { title: "Power Trip", rating: 9.5, placement: "none" },
+        { title: "No Money - Interlude", rating: 7.0, placement: "none" },
+        { title: "Trouble", rating: 7.0, placement: "none" },
+        { title: "Runaway", rating: 6.0, placement: "none" },
+        { title: "She Knows", rating: 10.0, placement: "1st" },
+        { title: "Rich Niggaz", rating: 8.0, placement: "none" },
+        { title: "Where's Jerimaine? - Skit", rating: 9.0, placement: "none" },
+        { title: "Forbidden Fruit", rating: 10.0, placement: "3rd" },
+        { title: "Chaining Day", rating: 6.0, placement: "none" },
+        {
+          title: "Ain't That Some Shit - interlude",
+          rating: 6.0,
+          placement: "none",
+        },
+        { title: "Crooked Smile", rating: 10.0, placement: "none" },
+        { title: "Let Nas Down", rating: 10.0, placement: "2nd" },
+        { title: "Born Sinner", rating: 8.5, placement: "none" },
       ],
       get avg() {
         return computeAvg(this.songs);
