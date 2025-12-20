@@ -130,9 +130,9 @@ export const albums = {
         { title: "Land Of The Snakes", rating: 10.0, placement: "1st" },
         { title: "Power Trip", rating: 9.5, placement: "none" },
         { title: "No Money - Interlude", rating: 7.0, placement: "none" },
-        { title: "Trouble", rating: 7.0, placement: "none" },
+        { title: "Trouble", rating: 6.5, placement: "none" },
         { title: "Runaway", rating: 6.0, placement: "none" },
-        { title: "She Knows", rating: 10.0, placement: "1st" },
+        { title: "She Knows", rating: 10.0, placement: "2nd" },
         { title: "Rich Niggaz", rating: 8.0, placement: "none" },
         { title: "Where's Jerimaine? - Skit", rating: 9.0, placement: "none" },
         { title: "Forbidden Fruit", rating: 10.0, placement: "3rd" },
@@ -143,8 +143,8 @@ export const albums = {
           placement: "none",
         },
         { title: "Crooked Smile", rating: 10.0, placement: "none" },
-        { title: "Let Nas Down", rating: 10.0, placement: "2nd" },
-        { title: "Born Sinner", rating: 8.5, placement: "none" },
+        { title: "Let Nas Down", rating: 10.0, placement: "none" },
+        { title: "Born Sinner", rating: 8.0, placement: "none" },
       ],
       get avg() {
         return computeAvg(this.songs);
