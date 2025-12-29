@@ -175,6 +175,47 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "Madvillainy",
+      artist: "MF DOOM",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F34ca415cf9ccfd68d859fb84e3645e8a.768x768x1.jpg",
+      songs: [
+        { title: "The Illest Villains", rating: 7.0, placement: "none" },
+        { title: "Accordion", rating: 7.5, placement: "none" },
+        { title: "Meat Grinder", rating: 9.0, placement: "none" },
+        { title: "Bistro", rating: 10.0, placement: "3rd" },
+        { title: "Raid", rating: 8.5, placement: "none" },
+        { title: "America's Most Blunted", rating: 8.0, placement: "none" },
+        { title: "Sickfit (Instrumental)", rating: 7.0, placement: "none" },
+        { title: "Rainbows", rating: 8.0, placement: "none" },
+        { title: "Curls", rating: 10.0, placement: "none" },
+        {
+          title: "Do Not Fire! (Instrumental)",
+          rating: 7.5,
+          placement: "none",
+        },
+        { title: "Money Folder", rating: 9.0, placement: "none" },
+        { title: "Shadows of Tomorrow", rating: 8.0, placement: "none" },
+        {
+          title: "Operation LifeSaver aka Mint Test",
+          rating: 10.0,
+          placement: "none",
+        },
+        { title: "Figaro", rating: 9.5, placement: "none" },
+        { title: "Hardcore Hustle", rating: 7.0, placement: "none" },
+        { title: "Strange Ways", rating: 9.5, placement: "none" },
+        { title: "Fancy Clown", rating: 10.0, placement: "1st" },
+        { title: "Eye", rating: 9.0, placement: "none" },
+        { title: "All Caps", rating: 10.0, placement: "2nd" },
+        { title: "Great Day", rating: 8.5, placement: "none" },
+        { title: "Rhinestone Cowboy", rating: 9.5, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
