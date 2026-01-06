@@ -216,6 +216,32 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "Graduation",
+      artist: "Kanye West",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fb9d6cf24ceb76fa5d8ebf02569e16e2f.1000x1000x1.png",
+      songs: [
+        { title: "Good Morning", rating: 8.0, placement: "none" },
+        { title: "Champion", rating: 8.5, placement: "none" },
+        { title: "Stronger", rating: 7.0, placement: "none" },
+        { title: "I Wonder", rating: 10.0, placement: "2nd" },
+        { title: "Good Life", rating: 8.5, placement: "none" },
+        { title: "Can't Tell Me Nothing", rating: 9.0, placement: "none" },
+        { title: "Barry Bonds", rating: 6.0, placement: "none" },
+        { title: "Drunk and Hot Girls", rating: 5.5, placement: "none" },
+        { title: "Flashing Lights", rating: 10.0, placement: "1st" },
+        { title: "Everything I Am", rating: 9.0, placement: "none" },
+        { title: "The Glory", rating: 8.0, placement: "none" },
+        { title: "Homecoming", rating: 9.5, placement: "3rd" },
+        { title: "Big Brother", rating: 7.0, placement: "none" },
+        { title: "Good Night", rating: 7.5, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
