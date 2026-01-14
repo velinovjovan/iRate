@@ -242,6 +242,31 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "Nevermind",
+      artist: "Nirvana",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fdab625b81d82c75be5b77e2bd44e52be.1000x1000x1.png",
+      songs: [
+        { title: "Smells Like Teen Spirit", rating: 10.0, placement: "none" },
+        { title: "In Bloom", rating: 8.5, placement: "none" },
+        { title: "Come As You Are", rating: 10.0, placement: "2nd" },
+        { title: "Breed", rating: 8.0, placement: "none" },
+        { title: "Lithium", rating: 10.0, placement: "1st" },
+        { title: "Polly", rating: 8.0, placement: "none" },
+        { title: "Territorial Pissings", rating: 6.5, placement: "none" },
+        { title: "Drain You", rating: 10.0, placement: "3rd" },
+        { title: "Lounge Act", rating: 9.5, placement: "none" },
+        { title: "Stay Away", rating: 7.0, placement: "none" },
+        { title: "On A Plain", rating: 9.0, placement: "none" },
+        { title: "Something In The Way", rating: 9.5, placement: "none" },
+        { title: "Endless, Nameless", rating: 6.5, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
