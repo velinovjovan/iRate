@@ -294,6 +294,28 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "The Divine Feminine",
+      artist: "Mac Miller",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F38df584102fc6044e8a6f70ae0bea6e2.1000x1000x1.png",
+      songs: [
+        { title: "Congratulations", rating: 10.0, placement: "1st" },
+        { title: "Dang!", rating: 9.5, placement: "none" },
+        { title: "Stay", rating: 8.5, placement: "none" },
+        { title: "Skin", rating: 9.5, placement: "none" },
+        { title: "Cinderella", rating: 9.5, placement: "none" },
+        { title: "Planet God Damn", rating: 7.0, placement: "none" },
+        { title: "Soulmate", rating: 8.5, placement: "none" },
+        { title: "We", rating: 8.0, placement: "none" },
+        { title: "My Favorite Part", rating: 10.0, placement: "3rd" },
+        { title: "God Is Fair, Sexy Nasty", rating: 10.0, placement: "2nd" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
@@ -847,6 +869,28 @@ export const albums = {
         { title: "Snap Out Of It", rating: 10.0, placement: "none" },
         { title: "Knee Socks", rating: 9.8, placement: "none" },
         { title: "I Wanna Be Yours", rating: 10.0, placement: "1st" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "The Divine Feminine",
+      artist: "Mac Miller",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F38df584102fc6044e8a6f70ae0bea6e2.1000x1000x1.png",
+      songs: [
+        { title: "Congratulations", rating: 10.0, placement: "1st" },
+        { title: "Dang!", rating: 9.5, placement: "none" },
+        { title: "Stay", rating: 9.5, placement: "none" },
+        { title: "Skin", rating: 10.0, placement: "3rd" },
+        { title: "Cinderella", rating: 9.8, placement: "none" },
+        { title: "Planet God Damn", rating: 8.0, placement: "none" },
+        { title: "Soulmate", rating: 9.4, placement: "none" },
+        { title: "We", rating: 9.0, placement: "none" },
+        { title: "My Favorite Part", rating: 9.5, placement: "none" },
+        { title: "God Is Fair, Sexy Nasty", rating: 10.0, placement: "2nd" },
       ],
       get avg() {
         return computeAvg(this.songs);
