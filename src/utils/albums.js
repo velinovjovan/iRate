@@ -306,11 +306,66 @@ export const albums = {
         { title: "Stay", rating: 8.5, placement: "none" },
         { title: "Skin", rating: 9.5, placement: "none" },
         { title: "Cinderella", rating: 9.5, placement: "none" },
-        { title: "Planet God Damn", rating: 7.0, placement: "none" },
+        { title: "Planet God Damn", rating: 7.5, placement: "none" },
         { title: "Soulmate", rating: 8.5, placement: "none" },
-        { title: "We", rating: 8.0, placement: "none" },
+        { title: "We", rating: 8.5, placement: "none" },
         { title: "My Favorite Part", rating: 10.0, placement: "3rd" },
         { title: "God Is Fair, Sexy Nasty", rating: 10.0, placement: "2nd" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "channel ORANGE",
+      artist: "Frank Ocean",
+      genre: "R&B",
+      cover:
+        "https://t2.genius.com/unsafe/344x344/https%3A%2F%2Fimages.genius.com%2F6523ef2dbe975dd04570ee626edf53ca.1000x1000x1.png",
+      songs: [
+        { title: "Start", rating: 8.0, placement: "none" },
+        { title: "Thinkin Bout You", rating: 10.0, placement: "none" },
+        { title: "Fertilizer", rating: 8.0, placement: "none" },
+        { title: "Sierra Leone", rating: 9.5, placement: "none" },
+        { title: "Sweet Life", rating: 10.0, placement: "3rd" },
+        { title: "Not Just Money", rating: 8.0, placement: "none" },
+        { title: "Super Rich Kids", rating: 9.0, placement: "none" },
+        { title: "Pilot Jones", rating: 8.0, placement: "none" },
+        { title: "Crack Rock", rating: 10.0, placement: "none" },
+        { title: "Pyramids", rating: 10.0, placement: "none" },
+        { title: "Lost", rating: 9.5, placement: "none" },
+        { title: "White", rating: 9.0, placement: "none" },
+        { title: "Monks", rating: 9.5, placement: "none" },
+        { title: "Bad Religion", rating: 10.0, placement: "2nd" },
+        { title: "Pink Matter", rating: 10.0, placement: "1st" },
+        { title: "Forrest Gump", rating: 9.0, placement: "none" },
+        { title: "End", rating: 9.5, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Insomniac",
+      artist: "Green Day",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F6ec8d9e5116bfd49f41421cd80ce3684.640x640x1.jpg",
+      songs: [
+        { title: "Armatage Shanks", rating: 9.0, placement: "none" },
+        { title: "Brat", rating: 8.0, placement: "none" },
+        { title: "Stuck with Me", rating: 8.5, placement: "none" },
+        { title: "Geek Stink Breath", rating: 9.0, placement: "none" },
+        { title: "No Pride", rating: 8.0, placement: "none" },
+        { title: "Bab's Uvula Who?", rating: 9.5, placement: "3rd" },
+        { title: "86", rating: 7.0, placement: "none" },
+        { title: "Panic Song", rating: 7.5, placement: "none" },
+        { title: "Stuart and the Ave.", rating: 8.5, placement: "none" },
+        { title: "Brain Stew", rating: 10.0, placement: "2nd" },
+        { title: "Jaded", rating: 9.5, placement: "none" },
+        { title: "Westbound Sign", rating: 8.5, placement: "none" },
+        { title: "Tight Wad Hill", rating: 7.5, placement: "none" },
+        { title: "Walking Contradiction", rating: 10.0, placement: "1st" },
       ],
       get avg() {
         return computeAvg(this.songs);
