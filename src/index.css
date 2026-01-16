@@ -152,7 +152,9 @@ body {
   max-width: 55rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
   position: relative;
   z-index: 2;
 }
@@ -219,7 +221,9 @@ body {
   margin-left: 3rem;
   font-weight: bold;
   cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -322,7 +326,9 @@ body {
 .footer-links p {
   color: #6b7280;
   text-decoration: none;
-  transition: opacity 0.2s, color 0.2s;
+  transition:
+    opacity 0.2s,
+    color 0.2s;
   font-weight: 500;
 }
 
@@ -348,7 +354,9 @@ body {
 
 .footer-socials a {
   color: #374151;
-  transition: opacity 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
 }
 
 .footer-socials a:hover {
@@ -425,7 +433,9 @@ select {
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23000' class='size-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m19.5 8.25-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E%0A")
     right 0.9375rem center / 1.25rem no-repeat;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
 
   @supports (appearance: base-select) {
     padding-inline: 1.25rem;
@@ -454,14 +464,17 @@ select {
       opacity: 0;
       height: 0;
       overflow: clip;
-      transition: height 0.5s ease-out, opacity 0.5s ease-out, overlay 0.5s,
+      transition:
+        height 0.5s ease-out,
+        opacity 0.5s ease-out,
+        overlay 0.5s,
         display 0.5s;
       transition-behavior: allow-discrete;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     &:open::picker(select) {
       opacity: 1;
-      height: calc-size(auto, size);
+      height: auto;
       overflow: auto;
       @starting-style {
         opacity: 0;
@@ -475,7 +488,9 @@ select {
       padding: 0.625rem;
       gap: 0.625rem;
       border-top: 0.0625rem solid #999;
-      transition: background 0.15s ease, font-weight 0.15s ease;
+      transition:
+        background 0.15s ease,
+        font-weight 0.15s ease;
       &:where(:hover, :focus, :active) {
         background: #c7ccc7;
         font-weight: bold;
