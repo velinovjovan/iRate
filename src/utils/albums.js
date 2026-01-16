@@ -951,5 +951,156 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "Appetite For Destruction",
+      artist: "Guns N' Roses",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fa01308c1dbbf0fb6aa6ac784d380cc5c.1000x1000x1.png",
+      songs: [
+        { title: "Welcome To The Jungle", rating: 10, placement: "none" },
+        { title: "It's So Easy", rating: 9, placement: "none" },
+        { title: "Nightrain", rating: 8.5, placement: "none" },
+        { title: "Out Ta Get Me", rating: 9.8, placement: "none" },
+        { title: "Mr. Brownstone", rating: 8, placement: "none" },
+        { title: "Paradise City", rating: 9.5, placement: "none" },
+        { title: "My Michelle", rating: 10, placement: "none" },
+        { title: "Think About You", rating: 8.9, placement: "none" },
+        { title: "Sweet Child O' Mine", rating: 10, placement: "none" },
+        { title: "You're Crazy", rating: 9.6, placement: "none" },
+        { title: "Anything Goes", rating: 8.5, placement: "none" },
+        { title: "Rocket Queen", rating: 9.2, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Kid A",
+      artist: "Radiohead",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F75474801ac6b6f258fa0456cccc0147a.1000x1000x1.png",
+      songs: [
+        {
+          title: "Everything In Its Right Place",
+          rating: 10,
+          placement: "none",
+        },
+        { title: "Kid A", rating: 6, placement: "none" },
+        { title: "The National Anthem", rating: 9, placement: "none" },
+        { title: "How To Disappear Completely", rating: 10, placement: "none" },
+        { title: "Treefingers", rating: 7.5, placement: "none" },
+        { title: "Optimistic", rating: 9.7, placement: "none" },
+        { title: "In Limbo", rating: 8.8, placement: "none" },
+        { title: "Idioteque", rating: 9.2, placement: "none" },
+        { title: "Morning Bell", rating: 8, placement: "none" },
+        { title: "Motion Picture Soundtrack", rating: 10, placement: "none" },
+        { title: "Untitled", rating: 9, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "In Rainbows",
+      artist: "Radiohead",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fd0bda7df3e09e0a4d22b671e081a1c46.1000x1000x1.png",
+      songs: [
+        { title: "15 Step", rating: 9.7, placement: "none" },
+        { title: "Bodysnatchers", rating: 8.5, placement: "none" },
+        { title: "Nude", rating: 10, placement: "none" },
+        { title: "Weird Fishes / Arpeggi", rating: 10, placement: "none" },
+        { title: "All I Need", rating: 9.8, placement: "none" },
+        { title: "Faust Arp", rating: 8.9, placement: "none" },
+        { title: "Reckoner", rating: 9, placement: "none" },
+        { title: "House of Cards", rating: 9, placement: "none" },
+        { title: "Jigsaw Falling Into Place", rating: 10, placement: "none" },
+        { title: "Videotape", rating: 9.9, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "OK Computer",
+      artist: "Radiohead",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F9546e3ab083649dbae5ab68070b748af.1000x1000x1.png",
+      songs: [
+        { title: "Airbag", rating: 9.2, placement: "none" },
+        { title: "Paranoid Android", rating: 10.0, placement: "none" },
+        {
+          title: "Subterranean Homesick Alien",
+          rating: 9.1,
+          placement: "none",
+        },
+        { title: "Exit Music (For a Film)", rating: 10, placement: "none" },
+        { title: "Let Down", rating: 9.8, placement: "none" },
+        { title: "Karma Police", rating: 9.5, placement: "none" },
+        { title: "Fitter Happier", rating: 7.8, placement: "none" },
+        { title: "Electioneering", rating: 8, placement: "none" },
+        { title: "Climbing Up the Walls", rating: 9.4, placement: "none" },
+        { title: "No Surprises", rating: 9.6, placement: "none" },
+        { title: "Lucky", rating: 9.0, placement: "none" },
+        { title: "The Tourist", rating: 9.3, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Pablo Honey",
+      artist: "Radiohead",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F4a9cfdac63c5b2a68c31c53254cff202.1000x1000x1.png",
+      songs: [
+        { title: "You", rating: 9.5, placement: "none" },
+        { title: "Creep", rating: 9.4, placement: "none" },
+        { title: "How Do You?", rating: 6.9, placement: "none" },
+        { title: "Stop Whispering", rating: 7.6, placement: "none" },
+        { title: "Thinking About You", rating: 8, placement: "none" },
+        { title: "Anyone Can Play Guitar", rating: 9.8, placement: "none" },
+        { title: "Ripcord", rating: 7.5, placement: "none" },
+        { title: "Vegetable", rating: 7.7, placement: "none" },
+        { title: "Prove Yourself", rating: 7.2, placement: "none" },
+        { title: "I Can’t", rating: 7.4, placement: "none" },
+        { title: "Lurgee", rating: 8.1, placement: "none" },
+        { title: "Blow Out", rating: 9.1, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Tragic Kingdom",
+      artist: "No Doubt",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F83ecc466bdf887223bc82aa9e897728b.1000x1000x1.jpg",
+      songs: [
+        { title: "Spiderwebs", rating: 8.8, placement: "none" },
+        { title: "Excuse Me Mr.", rating: 8, placement: "none" },
+        { title: "Just A Girl", rating: 9.8, placement: "none" },
+        { title: "Happy Now", rating: 9, placement: "none" },
+        { title: "Different People", rating: 7, placement: "none" },
+        { title: "Hey You", rating: 8.7, placement: "none" },
+        { title: "The Climb", rating: 9.5, placement: "none" },
+        { title: "Sixteen", rating: 9.9, placement: "none" },
+        { title: "Sunday Morning", rating: 9, placement: "none" },
+        { title: "Don't Speak", rating: 10, placement: "none" },
+        { title: "You Can Do It", rating: 7, placement: "none" },
+        { title: "World Go Round", rating: 8, placement: "none" },
+        { title: "End It On This", rating: 7.5, placement: "none" },
+        { title: "Tragic Kingdom", rating: 9, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
 };
