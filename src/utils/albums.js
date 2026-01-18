@@ -284,7 +284,7 @@ export const albums = {
         { title: "She", rating: 8.5, placement: "none" },
         { title: "Sassafras Roots", rating: 8.0, placement: "none" },
         { title: "When I Come Around", rating: 10.0, placement: "1st" },
-        { title: "Coming Clean", rating: 7.0, placement: "none" },
+        { title: "Coming Clean", rating: 7.5, placement: "none" },
         { title: "Emenius Sleepus", rating: 9.5, placement: "none" },
         { title: "In the End", rating: 9.5, placement: "none" },
         { title: "F.O.D.", rating: 10.0, placement: "none" },
