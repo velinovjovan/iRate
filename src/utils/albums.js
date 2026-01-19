@@ -371,6 +371,34 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "AM",
+      artist: "Arctic Monkeys",
+      genre: "Alternative",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8189e957069d9b6c7accea66c7fbab10.1000x1000x1.png",
+      songs: [
+        { title: "Do I Wanna Know?", rating: 9.5, placement: "none" },
+        { title: "R U Mine?", rating: 9.0, placement: "none" },
+        { title: "One For The Road", rating: 8.0, placement: "none" },
+        { title: "Arabella", rating: 10.0, placement: "none" },
+        { title: "I Want It All", rating: 8.0, placement: "none" },
+        { title: "No.1 Party Anthem", rating: 10.0, placement: "1st" },
+        { title: "Mad Sounds", rating: 9.0, placement: "none" },
+        { title: "Fireside", rating: 10.0, placement: "3rd" },
+        {
+          title: "Why'd You Only Call Me When You're High",
+          rating: 9.5,
+          placement: "none",
+        },
+        { title: "Snap Out Of It", rating: 10.0, placement: "none" },
+        { title: "Knee Socks", rating: 9.5, placement: "none" },
+        { title: "I Wanna Be Yours", rating: 10.0, placement: "2nd" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
