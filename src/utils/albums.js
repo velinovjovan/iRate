@@ -399,6 +399,35 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "Blonde",
+      artist: "Frank Ocean",
+      genre: "R&B",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F750737a023d383b93057b73d546bfe4e.1000x1000x1.png",
+      songs: [
+        { title: "Nikes", rating: 9.0, placement: "none" },
+        { title: "Ivy", rating: 10.0, placement: "2nd" },
+        { title: "Pink + White", rating: 10.0, placement: "none" },
+        { title: "Be Yourself", rating: 10.0, placement: "none" },
+        { title: "Solo", rating: 9.5, placement: "none" },
+        { title: "Skyline To", rating: 9.0, placement: "none" },
+        { title: "Self Control", rating: 10.0, placement: "none" },
+        { title: "Good Guy", rating: 7.0, placement: "none" },
+        { title: "Nights", rating: 10.0, placement: "3rd" },
+        { title: "Solo (Reprise)", rating: 7.5, placement: "none" },
+        { title: "Pretty Sweet", rating: 7.0, placement: "none" },
+        { title: "Facebook Story", rating: 10.0, placement: "none" },
+        { title: "Close To You", rating: 8.5, placement: "none" },
+        { title: "White Ferrari", rating: 10.0, placement: "none" },
+        { title: "Seigfried", rating: 10.0, placement: "1st" },
+        { title: "Godspeed", rating: 10.0, placement: "none" },
+        { title: "Futura Free", rating: 9.0, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
