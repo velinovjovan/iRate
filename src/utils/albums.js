@@ -428,6 +428,32 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "DAMN.",
+      artist: "Kendrick Lamar",
+      genre: "Hip-Hop",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Ff3f77222e1b615e0a10354ea6282ff22.1000x1000x1.png",
+      songs: [
+        { title: "BLOOD.", rating: 10.0, placement: "none" },
+        { title: "DNA.", rating: 10.0, placement: "none" },
+        { title: "YAH.", rating: 6.5, placement: "none" },
+        { title: "ELEMENT.", rating: 8.0, placement: "none" },
+        { title: "FEEL.", rating: 9.0, placement: "none" },
+        { title: "LOYALTY.", rating: 10.0, placement: "none" },
+        { title: "PRIDE", rating: 10.0, placement: "2nd" },
+        { title: "HUMBLE.", rating: 9.5, placement: "none" },
+        { title: "LUST.", rating: 9.0, placement: "none" },
+        { title: "LOVE.", rating: 10.0, placement: "none" },
+        { title: "XXX.", rating: 10.0, placement: "none" },
+        { title: "FEAR.", rating: 10.0, placement: "1st" },
+        { title: "GOD.", rating: 6.0, placement: "none" },
+        { title: "DUCKWORTH.", rating: 10.0, placement: "3rd" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
