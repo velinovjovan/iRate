@@ -374,7 +374,7 @@ export const albums = {
     {
       title: "AM",
       artist: "Arctic Monkeys",
-      genre: "Alternative",
+      genre: "Indie Rock",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8189e957069d9b6c7accea66c7fbab10.1000x1000x1.png",
       songs: [
@@ -449,6 +449,28 @@ export const albums = {
         { title: "FEAR.", rating: 10.0, placement: "1st" },
         { title: "GOD.", rating: 6.0, placement: "none" },
         { title: "DUCKWORTH.", rating: 10.0, placement: "3rd" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "Humbug",
+      artist: "Arctic Monkeys",
+      genre: "Indie Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fa14605f67f7505f149d81181c28ab04a.1000x1000x1.png",
+      songs: [
+        { title: "My Propeller", rating: 8.5, placement: "none" },
+        { title: "Crying Lightning", rating: 9.5, placement: "none" },
+        { title: "Dangerous Animals", rating: 6.5, placement: "none" },
+        { title: "Secret Door", rating: 10.0, placement: "2nd" },
+        { title: "Potion Approaching", rating: 6.0, placement: "none" },
+        { title: "Fire and the Thud", rating: 7.0, placement: "none" },
+        { title: "Cornerstone", rating: 10.0, placement: "1st" },
+        { title: "Dance Little Liar", rating: 9.0, placement: "none" },
+        { title: "Pretty Visitors", rating: 9.0, placement: "none" },
+        { title: "The Jeweller's Hands", rating: 9.5, placement: "3rd" },
       ],
       get avg() {
         return computeAvg(this.songs);
