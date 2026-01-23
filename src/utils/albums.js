@@ -476,6 +476,45 @@ export const albums = {
         return computeAvg(this.songs);
       },
     },
+    {
+      title: "WASTELAND",
+      artist: "Brent Faiyaz",
+      genre: "R&B",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F72495da0e1a25a89a23c56ba823e5b1d.1000x1000x1.jpg",
+      songs: [
+        { title: "VILLAIN'S THEME", rating: 8.0, placement: "none" },
+        { title: "LOOSE CHANGE", rating: 9.0, placement: "none" },
+        { title: "GRAVITY", rating: 10.0, placement: "1st" },
+        {
+          title: "HEAL YOUR HEART (INTERLUDE)",
+          rating: 10.0,
+          placement: "2nd",
+        },
+        { title: "SKIT: EGOMANIAC", rating: 7.5, placement: "none" },
+        { title: "ALL MINE", rating: 9.5, placement: "none" },
+        { title: "PRICE OF FAME", rating: 6.0, placement: "none" },
+        { title: "GHETTO GATSBY", rating: 7.5, placement: "none" },
+        {
+          title: "WASTING TIME",
+          rating: 7.0,
+          placement: "none",
+        },
+        { title: "ROLLING STONE", rating: 9.5, placement: "none" },
+        { title: "FYTB", rating: 6.0, placement: "none" },
+        { title: "SKIT: OBLIVION", rating: 7.0, placement: "none" },
+        { title: "DEAD MAN WALKING", rating: 10.0, placement: "3rd" },
+        { title: "ADDICTIONS", rating: 7.5, placement: "none" },
+        { title: "ROLE MODEL", rating: 8.0, placement: "none" },
+        { title: "JACKIE BROWN", rating: 9.0, placement: "none" },
+        { title: "BAD LUCK", rating: 6.5, placement: "none" },
+        { title: "SKIT: WAKE UP CALL", rating: 9.0, placement: "none" },
+        { title: "ANGEL", rating: 6.0, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
   ],
   meli: [
     {
