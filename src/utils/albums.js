@@ -325,7 +325,7 @@ export const albums = {
       songs: [
         { title: "Start", rating: 8.0, placement: "none" },
         { title: "Thinkin Bout You", rating: 10.0, placement: "none" },
-        { title: "Fertilizer", rating: 8.0, placement: "none" },
+        { title: "Fertilizer", rating: 7.5, placement: "none" },
         { title: "Sierra Leone", rating: 9.5, placement: "none" },
         { title: "Sweet Life", rating: 10.0, placement: "3rd" },
         { title: "Not Just Money", rating: 8.0, placement: "none" },
@@ -374,11 +374,11 @@ export const albums = {
     {
       title: "AM",
       artist: "Arctic Monkeys",
-      genre: "Indie Rock",
+      genre: "Rock",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F8189e957069d9b6c7accea66c7fbab10.1000x1000x1.png",
       songs: [
-        { title: "Do I Wanna Know?", rating: 9.5, placement: "none" },
+        { title: "Do I Wanna Know?", rating: 9.0, placement: "none" },
         { title: "R U Mine?", rating: 9.0, placement: "none" },
         { title: "One For The Road", rating: 8.0, placement: "none" },
         { title: "Arabella", rating: 10.0, placement: "none" },
@@ -388,11 +388,11 @@ export const albums = {
         { title: "Fireside", rating: 10.0, placement: "3rd" },
         {
           title: "Why'd You Only Call Me When You're High",
-          rating: 9.5,
+          rating: 9.0,
           placement: "none",
         },
         { title: "Snap Out Of It", rating: 10.0, placement: "none" },
-        { title: "Knee Socks", rating: 9.5, placement: "none" },
+        { title: "Knee Socks", rating: 9.0, placement: "none" },
         { title: "I Wanna Be Yours", rating: 10.0, placement: "2nd" },
       ],
       get avg() {
@@ -407,16 +407,16 @@ export const albums = {
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2F750737a023d383b93057b73d546bfe4e.1000x1000x1.png",
       songs: [
         { title: "Nikes", rating: 9.0, placement: "none" },
-        { title: "Ivy", rating: 10.0, placement: "2nd" },
+        { title: "Ivy", rating: 10.0, placement: "none" },
         { title: "Pink + White", rating: 10.0, placement: "none" },
         { title: "Be Yourself", rating: 10.0, placement: "none" },
         { title: "Solo", rating: 9.5, placement: "none" },
         { title: "Skyline To", rating: 9.0, placement: "none" },
-        { title: "Self Control", rating: 10.0, placement: "none" },
-        { title: "Good Guy", rating: 7.0, placement: "none" },
+        { title: "Self Control", rating: 10.0, placement: "2nd" },
+        { title: "Good Guy", rating: 7.5, placement: "none" },
         { title: "Nights", rating: 10.0, placement: "3rd" },
-        { title: "Solo (Reprise)", rating: 7.5, placement: "none" },
-        { title: "Pretty Sweet", rating: 7.0, placement: "none" },
+        { title: "Solo (Reprise)", rating: 8.0, placement: "none" },
+        { title: "Pretty Sweet", rating: 7.5, placement: "none" },
         { title: "Facebook Story", rating: 10.0, placement: "none" },
         { title: "Close To You", rating: 8.5, placement: "none" },
         { title: "White Ferrari", rating: 10.0, placement: "none" },
@@ -457,7 +457,7 @@ export const albums = {
     {
       title: "Humbug",
       artist: "Arctic Monkeys",
-      genre: "Indie Rock",
+      genre: "Rock",
       cover:
         "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fa14605f67f7505f149d81181c28ab04a.1000x1000x1.png",
       songs: [
@@ -510,6 +510,28 @@ export const albums = {
         { title: "BAD LUCK", rating: 6.5, placement: "none" },
         { title: "SKIT: WAKE UP CALL", rating: 9.0, placement: "none" },
         { title: "ANGEL", rating: 6.0, placement: "none" },
+      ],
+      get avg() {
+        return computeAvg(this.songs);
+      },
+    },
+    {
+      title: "In Rainbows",
+      artist: "Radiohead",
+      genre: "Rock",
+      cover:
+        "https://t2.genius.com/unsafe/847x0/https%3A%2F%2Fimages.genius.com%2Fd0bda7df3e09e0a4d22b671e081a1c46.1000x1000x1.png",
+      songs: [
+        { title: "15 Step", rating: 9.0, placement: "none" },
+        { title: "Bodysnatchers", rating: 9.5, placement: "none" },
+        { title: "Nude", rating: 9.5, placement: "none" },
+        { title: "Weird Fishes / Arpeggi", rating: 10.0, placement: "1st" },
+        { title: "All I Need", rating: 10.0, placement: "3rd" },
+        { title: "Faust Arp", rating: 8.5, placement: "none" },
+        { title: "Reckoner", rating: 9.0, placement: "none" },
+        { title: "House of Cards", rating: 9.5, placement: "none" },
+        { title: "Jigsaw Falling Into Place", rating: 10.0, placement: "2nd" },
+        { title: "Videotape", rating: 9.0, placement: "none" },
       ],
       get avg() {
         return computeAvg(this.songs);
