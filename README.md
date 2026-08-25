@@ -4,7 +4,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - [React](https://react.dev) (bootstrapped with [Create React App](https://create-react-app.dev))
 - [GSAP](https://greensock.com/gsap) for animations
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧩 Installation
+## Installation
 
 ### 1. Clone the repo
 
